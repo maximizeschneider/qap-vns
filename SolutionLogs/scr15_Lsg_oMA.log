@@ -1,0 +1,885 @@
+[0.0014415879850275815] INFO: Starting search.
+[0.0015300929953809828] INFO: Starting construction phase.
+[0.001560565986437723] INFO: Generating an initial solution according to 1-increasing_dof.
+[0.020540712983347476] INFO: Solution updated in constructive phase.
+[0.020628705999115482] INFO: Constructive solution found.
+The permutation [12, 8, 3, 4, 13, 5, 0, 1, 11, 2, 7, 6, 9, 10, 14] results in a cost of 67860
+[0.020655873988289386] INFO: Starting variable neighborhood search phase.
+[0.02068126099766232] DEBUG: Creating neighborhood 1-Swap for VNS.
+[0.02076179298455827] DEBUG: Neighborhood 1-Swap for VNS created.
+[0.020775718992808834] DEBUG: Creating neighborhood 1-Insertion for VNS.
+[0.020915991975925863] DEBUG: Neighborhood 1-Insertion for VNS created.
+[0.020930482976837084] DEBUG: Creating neighborhood 3-Permute for VNS.
+[0.021157792973099276] DEBUG: Neighborhood 3-Permute for VNS created.
+[0.021172940992983058] DEBUG: Creating neighborhood 2-Swap for VNS.
+[0.023619587998837233] DEBUG: Neighborhood 2-Swap for VNS created.
+[0.023637126985704526] DEBUG: Creating neighborhood 4-Permute for VNS.
+[0.025574753992259502] DEBUG: Neighborhood 4-Permute for VNS created.
+[0.02559719598502852] DEBUG: Creating neighborhood 3-Swap for VNS.
+[0.11577720797504298] DEBUG: Neighborhood 3-Swap for VNS created.
+[0.11586034897482023] DEBUG: Shaked solution: The permutation [12, 8, 3, 4, 13, 5, 0, 1, 11, 2, 7, 6, 9, 10, 14] results in a cost of 67860
+[0.11587793999933638] DEBUG: Starting LocalSearch procedure.
+[0.12614165199920535] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[0.1262087779759895] DEBUG: Local searched solution: The permutation [12, 8, 9, 4, 2, 0, 5, 1, 13, 6, 3, 7, 14, 10, 11] results in a cost of 56082
+[0.12622650098637678] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.12625345098786056] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[0.12628137099090964] DEBUG: Solution updated in VNS.
+[0.1263044269871898] INFO: New solution: The permutation [12, 8, 9, 4, 2, 0, 5, 1, 13, 6, 3, 7, 14, 10, 11] results in a cost of 56082
+[0.126407981995726] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((8, 12),) at index 36.
+[0.1264354570012074] DEBUG: Shaked solution: The permutation [12, 8, 9, 4, 2, 0, 5, 1, 14, 6, 3, 7, 13, 10, 11] results in a cost of 57608
+[0.12644856897532009] DEBUG: Starting LocalSearch procedure.
+[0.132701101974817] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[0.13277707598172128] DEBUG: Local searched solution: The permutation [12, 8, 9, 4, 2, 0, 5, 1, 13, 6, 3, 7, 14, 10, 11] results in a cost of 56082
+[0.13279545298428275] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.13294941498315893] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((0, 1),) at index 0.
+[0.13298217600095086] DEBUG: Shaked solution: The permutation [8, 12, 9, 4, 2, 0, 5, 1, 13, 6, 3, 7, 14, 10, 11] results in a cost of 63228
+[0.13299662998178974] DEBUG: Starting LocalSearch procedure.
+[0.15007701099966653] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[0.1501521439931821] DEBUG: Local searched solution: The permutation [12, 8, 9, 4, 2, 0, 5, 1, 13, 6, 3, 7, 14, 10, 11] results in a cost of 56082
+[0.15017018397338688] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.15027587799704634] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 6, 7), (1, 2, 0)) at index 277.
+[0.15030662098433822] DEBUG: Shaked solution: The permutation [5, 8, 9, 4, 2, 0, 1, 12, 13, 6, 3, 7, 14, 10, 11] results in a cost of 73082
+[0.1503210139926523] DEBUG: Starting LocalSearch procedure.
+[0.2820134799985681] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[0.2820904659747612] DEBUG: Local searched solution: The permutation [12, 0, 9, 4, 3, 5, 1, 2, 8, 6, 13, 7, 14, 10, 11] results in a cost of 53108
+[0.2821093059901614] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.2821412529738154] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[0.28221269298228435] DEBUG: Solution updated in VNS.
+[0.2822579639905598] INFO: New solution: The permutation [12, 0, 9, 4, 3, 5, 1, 2, 8, 6, 13, 7, 14, 10, 11] results in a cost of 53108
+[0.2826761579781305] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((3, 7),) at index 37.
+[0.28271673899143934] DEBUG: Shaked solution: The permutation [12, 0, 9, 2, 3, 5, 1, 4, 8, 6, 13, 7, 14, 10, 11] results in a cost of 63844
+[0.2827332939777989] DEBUG: Starting LocalSearch procedure.
+[0.29477501998189837] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[0.2948491019778885] DEBUG: Local searched solution: The permutation [12, 4, 9, 0, 3, 2, 5, 1, 8, 6, 13, 7, 14, 10, 11] results in a cost of 56262
+[0.29486885099322535] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.29502315499121323] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((13, 11),) at index 85.
+[0.2950573109847028] DEBUG: Shaked solution: The permutation [12, 0, 9, 4, 3, 5, 1, 2, 8, 6, 13, 10, 7, 14, 11] results in a cost of 64212
+[0.29507357397233136] DEBUG: Starting LocalSearch procedure.
+[0.32079847797285765] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[0.32089911997900344] DEBUG: Local searched solution: The permutation [12, 0, 9, 4, 3, 5, 1, 2, 8, 6, 13, 14, 11, 10, 7] results in a cost of 56468
+[0.3209202369907871] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.3211310439801309] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((5, 7, 12), (1, 2, 0)) at index 1179.
+[0.32117578899487853] DEBUG: Shaked solution: The permutation [12, 0, 9, 4, 3, 2, 1, 14, 8, 6, 13, 7, 5, 10, 11] results in a cost of 73290
+[0.32119342900114134] DEBUG: Starting LocalSearch procedure.
+[0.4523820149770472] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[0.4524622089811601] DEBUG: Local searched solution: The permutation [12, 0, 9, 4, 3, 5, 1, 2, 8, 6, 13, 7, 14, 10, 11] results in a cost of 53108
+[0.4524841389793437] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.452607374987565] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((3, 7), (6, 9)) at index 2763.
+[0.4526414329884574] DEBUG: Shaked solution: The permutation [12, 0, 9, 2, 3, 5, 6, 4, 8, 1, 13, 7, 14, 10, 11] results in a cost of 81508
+[0.4526966959820129] DEBUG: Starting LocalSearch procedure.
+[0.7299737709981855] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[0.7300715249730274] DEBUG: Local searched solution: The permutation [14, 2, 6, 3, 4, 5, 1, 0, 7, 9, 12, 13, 11, 10, 8] results in a cost of 55760
+[0.7300914969819132] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[0.7301988760009408] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((3, 8, 10, 12), (3, 0, 2, 1)) at index 23156.
+[0.7302303289761767] DEBUG: Shaked solution: The permutation [12, 0, 9, 14, 3, 5, 1, 2, 4, 6, 13, 7, 8, 10, 11] results in a cost of 83170
+[0.7302454669843428] DEBUG: Starting LocalSearch procedure.
+[2.2250047059787903] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[2.225078366987873] DEBUG: Local searched solution: The permutation [12, 10, 9, 14, 3, 13, 11, 7, 8, 6, 0, 2, 4, 5, 1] results in a cost of 54924
+[2.225096889975248] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[2.2251929549966007] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 5), (3, 11), (8, 9)) at index 35217.
+[2.2252214859763626] DEBUG: Shaked solution: The permutation [12, 5, 9, 7, 3, 0, 1, 2, 6, 8, 13, 4, 14, 10, 11] results in a cost of 65778
+[2.2252356989774853] DEBUG: Starting LocalSearch procedure.
+[9.420648768980755] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[9.4207212299807] DEBUG: Local searched solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 14, 5, 12, 4, 13, 9, 8] results in a cost of 52524
+[9.420777496998198] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[9.420807612972567] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[9.42083396797534] DEBUG: Solution updated in VNS.
+[9.420856057986384] INFO: New solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 14, 5, 12, 4, 13, 9, 8] results in a cost of 52524
+[9.421275378990686] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((1, 8),) at index 57.
+[9.42131188698113] DEBUG: Shaked solution: The permutation [11, 14, 10, 7, 0, 3, 2, 1, 6, 5, 12, 4, 13, 9, 8] results in a cost of 67800
+[9.421326776995556] DEBUG: Starting LocalSearch procedure.
+[9.430052394978702] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[9.43009239298408] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[9.430108446977101] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[9.430132952984422] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[9.430159355979413] DEBUG: Solution updated in VNS.
+[9.430181793984957] INFO: New solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[9.430270206998102] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((2, 8),) at index 90.
+[9.430297176993918] DEBUG: Shaked solution: The permutation [14, 6, 11, 7, 0, 3, 2, 1, 10, 5, 12, 4, 13, 9, 8] results in a cost of 53248
+[9.430310358991846] DEBUG: Starting LocalSearch procedure.
+[9.437799045990687] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[9.437850646994775] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[9.437868317996617] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[9.43800364297931] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((10, 7),) at index 120.
+[9.438034086982952] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 12, 1, 11, 5, 4, 13, 9, 8] results in a cost of 84098
+[9.438048799987882] DEBUG: Starting LocalSearch procedure.
+[9.460059325996554] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[9.46012590097962] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 11, 2, 3, 1, 5, 12, 4, 13, 9, 8] results in a cost of 55692
+[9.460146624973277] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[9.460243773995899] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((4, 8, 12), (0, 2, 1)) at index 1748.
+[9.460271545976866] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 13, 5, 12, 4, 11, 9, 8] results in a cost of 53842
+[9.460284979984863] DEBUG: Starting LocalSearch procedure.
+[9.549781849986175] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[9.549851897987537] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[9.549870448972797] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[9.549961560987867] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 14), (8, 9)) at index 2970.
+[9.54998854798032] DEBUG: Shaked solution: The permutation [8, 6, 10, 7, 0, 3, 2, 1, 5, 11, 12, 4, 13, 9, 14] results in a cost of 66160
+[9.55000147697865] DEBUG: Starting LocalSearch procedure.
+[10.029815677989973] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[10.029885420983192] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[10.029903077986091] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[10.029997423989698] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((2, 5, 6, 12), (3, 1, 2, 0)) at index 21570.
+[10.03002603398636] DEBUG: Shaked solution: The permutation [14, 6, 13, 7, 0, 3, 2, 1, 11, 5, 12, 4, 10, 9, 8] results in a cost of 53668
+[10.03007733298] DEBUG: Starting LocalSearch procedure.
+[11.641529941989575] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[11.641615689994069] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[11.641638059983961] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[11.641764451982453] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 11), (3, 7), (6, 10)) at index 49847.
+[11.641798459982965] DEBUG: Shaked solution: The permutation [4, 6, 10, 1, 0, 3, 12, 7, 11, 5, 2, 14, 13, 9, 8] results in a cost of 103790
+[11.641815979994135] DEBUG: Starting LocalSearch procedure.
+[16.77646694998839] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[16.77655356298783] DEBUG: Local searched solution: The permutation [0, 6, 5, 2, 14, 3, 7, 11, 1, 8, 4, 12, 10, 9, 13] results in a cost of 53966
+[16.776576162985293] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[16.776705416996265] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((7, 8),) at index 81.
+[16.77674018399557] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 11, 1, 5, 12, 4, 13, 9, 8] results in a cost of 64016
+[16.776756971987197] DEBUG: Starting LocalSearch procedure.
+[16.789742105989717] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[16.78981905899127] DEBUG: Local searched solution: The permutation [0, 6, 10, 2, 1, 3, 7, 11, 14, 5, 12, 4, 13, 9, 8] results in a cost of 53826
+[16.789840541983722] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[16.78999864999787] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((10, 9),) at index 135.
+[16.79003452399047] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 12, 5, 4, 13, 9, 8] results in a cost of 59058
+[16.790050904994132] DEBUG: Starting LocalSearch procedure.
+[16.826798171998234] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[16.826876934996108] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 4, 12, 9, 8] results in a cost of 52398
+[16.82689779798966] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[16.82701334299054] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((7, 12, 13), (1, 2, 0)) at index 398.
+[16.827047469996614] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 13, 11, 5, 12, 4, 9, 1, 8] results in a cost of 80918
+[16.827063282980816] DEBUG: Starting LocalSearch procedure.
+[17.086838246992556] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[17.0870273289911] DEBUG: Local searched solution: The permutation [5, 6, 10, 7, 0, 3, 2, 1, 11, 9, 4, 8, 14, 13, 12] results in a cost of 55888
+[17.087079384975368] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[17.08730472298339] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 10), (2, 3)) at index 608.
+[17.087379502976546] DEBUG: Shaked solution: The permutation [12, 6, 7, 10, 0, 3, 2, 1, 11, 5, 14, 4, 13, 9, 8] results in a cost of 60720
+[17.087407246988732] DEBUG: Starting LocalSearch procedure.
+[17.406276040972443] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[17.40635670197662] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[17.406376723985886] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[17.406486020976445] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((3, 7, 8, 12), (3, 2, 1, 0)) at index 30311.
+[17.406517250987235] DEBUG: Shaked solution: The permutation [14, 6, 10, 13, 0, 3, 2, 11, 1, 5, 12, 4, 7, 9, 8] results in a cost of 84732
+[17.40653131698491] DEBUG: Starting LocalSearch procedure.
+[18.78150694197393] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[18.78158449899638] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[18.781659115978982] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[18.78176433299086] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((2, 8), (5, 7), (10, 14)) at index 50023.
+[18.781794724985957] DEBUG: Shaked solution: The permutation [14, 6, 11, 7, 0, 1, 2, 3, 10, 5, 8, 4, 13, 9, 12] results in a cost of 58840
+[18.781809893989703] DEBUG: Starting LocalSearch procedure.
+[23.167058399994858] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[23.16713058698224] DEBUG: Local searched solution: The permutation [14, 7, 10, 3, 0, 6, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 53776
+[23.167148650973104] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[23.1672420539835] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((1, 6),) at index 75.
+[23.167271094978787] DEBUG: Shaked solution: The permutation [14, 2, 10, 7, 0, 3, 6, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 61350
+[23.167285452975193] DEBUG: Starting LocalSearch procedure.
+[23.17492091297754] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[23.1749523949984] DEBUG: Local searched solution: The permutation [14, 7, 10, 3, 0, 1, 6, 2, 11, 5, 12, 4, 13, 9, 8] results in a cost of 54874
+[23.174967173981713] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[23.175093211990315] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((4, 11),) at index 121.
+[23.175122173997806] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 3, 2, 1, 11, 5, 12, 4, 0, 13, 9, 8] results in a cost of 81840
+[23.17513579898514] DEBUG: Starting LocalSearch procedure.
+[23.201523508992977] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[23.20159593099379] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 5, 3, 2, 1, 11, 13, 0, 12, 4, 9, 8] results in a cost of 55266
+[23.201614366000285] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[23.20171277099871] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((5, 11, 14), (1, 2, 0)) at index 1280.
+[23.201741784985643] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 4, 2, 1, 11, 5, 12, 8, 13, 9, 3] results in a cost of 67248
+[23.201755855989177] DEBUG: Starting LocalSearch procedure.
+[23.32845262097544] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[23.328524143988034] DEBUG: Local searched solution: The permutation [4, 6, 5, 7, 0, 3, 2, 1, 11, 10, 12, 14, 8, 9, 13] results in a cost of 53564
+[23.32854330400005] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[23.32863815399469] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((6, 13), (7, 14)) at index 432.
+[23.328668401984032] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 9, 8, 11, 5, 12, 4, 13, 2, 1] results in a cost of 74476
+[23.328683618979994] DEBUG: Starting LocalSearch procedure.
+[23.60329535100027] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[23.603370308992453] DEBUG: Local searched solution: The permutation [12, 6, 13, 10, 2, 11, 7, 3, 14, 5, 0, 4, 8, 9, 1] results in a cost of 53876
+[23.603391154989367] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[23.60349915298866] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 6, 10, 12), (2, 0, 1, 3)) at index 19961.
+[23.60352988599334] DEBUG: Shaked solution: The permutation [14, 12, 10, 7, 0, 3, 6, 1, 11, 5, 2, 4, 13, 9, 8] results in a cost of 86666
+[23.603545260993997] DEBUG: Starting LocalSearch procedure.
+[25.600250907998998] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[25.60032746999059] DEBUG: Local searched solution: The permutation [14, 6, 9, 2, 1, 3, 7, 11, 10, 4, 13, 5, 12, 8, 0] results in a cost of 55918
+[25.600347614992643] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[25.600448069977574] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((4, 12), (5, 7), (6, 8)) at index 60467.
+[25.600518562976504] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 13, 1, 11, 3, 2, 5, 12, 4, 0, 9, 8] results in a cost of 70290
+[25.600535139994463] DEBUG: Starting LocalSearch procedure.
+[30.301051021990133] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[30.30113840699778] DEBUG: Local searched solution: The permutation [14, 6, 13, 7, 0, 3, 2, 1, 10, 5, 11, 4, 12, 9, 8] results in a cost of 54562
+[30.30116076898412] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[30.301264808978885] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((11, 12),) at index 8.
+[30.30129734397633] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 13, 4, 9, 8] results in a cost of 55062
+[30.30131346997223] DEBUG: Starting LocalSearch procedure.
+[30.308825777989114] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[30.308890634973068] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[30.30891048099147] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[30.309053940000013] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((5, 12),) at index 120.
+[30.309085761982715] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 2, 1, 11, 5, 12, 4, 13, 3, 9, 8] results in a cost of 82842
+[30.309101433987962] DEBUG: Starting LocalSearch procedure.
+[30.332594571984373] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[30.332678959995974] DEBUG: Local searched solution: The permutation [14, 6, 11, 7, 0, 3, 2, 1, 10, 5, 12, 4, 13, 9, 8] results in a cost of 53248
+[30.332703109976137] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[30.33281822799472] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((2, 7, 11), (2, 1, 0)) at index 880.
+[30.332851865998236] DEBUG: Shaked solution: The permutation [14, 6, 4, 7, 0, 3, 2, 1, 11, 5, 12, 10, 13, 9, 8] results in a cost of 59024
+[30.332869088975713] DEBUG: Starting LocalSearch procedure.
+[30.42785481698229] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[30.42792962497333] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[30.427951505000237] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[30.428053518000524] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((5, 14), (11, 12)) at index 3276.
+[30.42808445999981] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 8, 2, 1, 11, 5, 12, 13, 4, 9, 3] results in a cost of 70538
+[30.42809906799812] DEBUG: Starting LocalSearch procedure.
+[30.689264213986462] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[30.68934233498294] DEBUG: Local searched solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 5, 8, 14, 4, 13, 9, 12] results in a cost of 54836
+[30.689362034987425] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[30.689472956990357] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 3, 8, 10), (1, 3, 2, 0)) at index 10519.
+[30.689505623973673] DEBUG: Shaked solution: The permutation [14, 7, 10, 12, 0, 3, 2, 1, 11, 5, 6, 4, 13, 9, 8] results in a cost of 85576
+[30.689521104999585] DEBUG: Starting LocalSearch procedure.
+[32.18411429898697] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[32.18419203697704] DEBUG: Local searched solution: The permutation [1, 7, 13, 11, 3, 10, 6, 2, 14, 5, 0, 4, 12, 9, 8] results in a cost of 54356
+[32.184211705985945] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[32.18431254097959] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 3), (1, 13), (4, 12)) at index 960.
+[32.18434295797488] DEBUG: Shaked solution: The permutation [7, 9, 10, 14, 13, 3, 2, 1, 11, 5, 12, 4, 0, 6, 8] results in a cost of 76258
+[32.18439508698066] DEBUG: Starting LocalSearch procedure.
+[35.38488676698762] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[35.384960504976334] DEBUG: Local searched solution: The permutation [0, 6, 8, 5, 7, 1, 2, 3, 4, 10, 14, 11, 12, 9, 13] results in a cost of 55308
+[35.384980417991756] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[35.385077072976856] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((8, 9),) at index 41.
+[35.38510716200108] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 5, 11, 12, 4, 13, 9, 8] results in a cost of 62466
+[35.38512338799774] DEBUG: Starting LocalSearch procedure.
+[35.39531485599582] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[35.39534694098984] DEBUG: Local searched solution: The permutation [4, 6, 5, 7, 0, 3, 2, 1, 11, 10, 12, 14, 8, 9, 13] results in a cost of 53564
+[35.39536227998906] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[35.3954962779826] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((13, 3),) at index 27.
+[35.39552705499227] DEBUG: Shaked solution: The permutation [14, 6, 10, 9, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 8] results in a cost of 92248
+[35.3955416509998] DEBUG: Starting LocalSearch procedure.
+[35.42832626498421] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[35.42839389599976] DEBUG: Local searched solution: The permutation [6, 10, 9, 11, 2, 14, 7, 3, 0, 4, 1, 5, 12, 8, 13] results in a cost of 63886
+[35.42841472098371] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[35.42851658698055] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((1, 4, 11), (2, 0, 1)) at index 1033.
+[35.42854703098419] DEBUG: Shaked solution: The permutation [14, 4, 10, 7, 6, 3, 2, 1, 11, 5, 12, 0, 13, 9, 8] results in a cost of 70428
+[35.428561770997476] DEBUG: Starting LocalSearch procedure.
+[35.56063501097378] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[35.56858124298742] DEBUG: Local searched solution: The permutation [11, 1, 5, 0, 7, 6, 2, 3, 4, 10, 12, 14, 8, 9, 13] results in a cost of 55468
+[35.56862287898548] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[35.568809594988124] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 14), (6, 7)) at index 302.
+[35.56884891199297] DEBUG: Shaked solution: The permutation [14, 8, 10, 7, 0, 3, 1, 2, 11, 5, 12, 4, 13, 9, 6] results in a cost of 77350
+[35.56886646899511] DEBUG: Starting LocalSearch procedure.
+[36.25328577999608] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[36.25337776899687] DEBUG: Local searched solution: The permutation [11, 8, 10, 12, 9, 13, 4, 0, 14, 5, 3, 1, 7, 6, 2] results in a cost of 54186
+[36.25339652298135] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[36.25352368497988] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 2, 7, 10), (2, 1, 0, 3)) at index 28532.
+[36.25355468899943] DEBUG: Shaked solution: The permutation [14, 1, 10, 7, 0, 3, 2, 6, 11, 5, 12, 4, 13, 9, 8] results in a cost of 62732
+[36.25357007497223] DEBUG: Starting LocalSearch procedure.
+[37.68352208897704] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[37.68359632897773] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[37.68361864599865] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[37.6837230619858] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 3), (5, 11), (6, 12)) at index 58243.
+[37.68375573598314] DEBUG: Shaked solution: The permutation [14, 7, 10, 6, 0, 4, 13, 1, 11, 5, 12, 3, 2, 9, 8] results in a cost of 86732
+[37.683771157986484] DEBUG: Starting LocalSearch procedure.
+[40.97102444397751] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[40.97110172599787] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 4, 3, 7, 11, 13, 5, 0, 1, 12, 9, 8] results in a cost of 54594
+[40.971185739996145] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[40.97129144999781] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((6, 13),) at index 41.
+[40.971324105979875] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 9, 1, 11, 5, 12, 4, 13, 2, 8] results in a cost of 84516
+[40.971339810988866] DEBUG: Starting LocalSearch procedure.
+[40.98796318098903] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[40.98802811099449] DEBUG: Local searched solution: The permutation [5, 6, 11, 2, 4, 3, 1, 0, 7, 9, 12, 13, 14, 10, 8] results in a cost of 55986
+[40.98804856700008] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[40.98819187399931] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((9, 4),) at index 22.
+[40.98822403798113] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 5, 0, 3, 2, 1, 11, 12, 4, 13, 9, 8] results in a cost of 71936
+[40.9882403339725] DEBUG: Starting LocalSearch procedure.
+[41.01252734698937] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[41.012595027976204] DEBUG: Local searched solution: The permutation [14, 6, 10, 5, 0, 7, 2, 3, 1, 12, 11, 13, 4, 9, 8] results in a cost of 63056
+[41.012614216975635] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[41.01271733400063] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 5, 6), (1, 2, 0)) at index 1103.
+[41.01275045899092] DEBUG: Shaked solution: The permutation [3, 6, 10, 7, 0, 2, 14, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 76286
+[41.01276703199255] DEBUG: Starting LocalSearch procedure.
+[41.10876962498878] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[41.108843894995516] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[41.10886589897564] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[41.10897403099807] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((4, 7), (11, 14)) at index 1894.
+[41.1090077929839] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 1, 3, 2, 0, 11, 5, 12, 8, 13, 9, 4] results in a cost of 59212
+[41.10902547399746] DEBUG: Starting LocalSearch procedure.
+[41.55969582297257] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[41.5598190559831] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[41.55987216698122] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[41.56003515099292] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((9, 10, 13, 14), (1, 0, 3, 2)) at index 9467.
+[41.56007875598152] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 12, 5, 4, 13, 8, 9] results in a cost of 62664
+[41.560099853988504] DEBUG: Starting LocalSearch procedure.
+[43.02732300397474] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[43.02740123900003] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[43.02742191197467] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[43.027526178979315] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 9), (2, 7), (5, 10)) at index 70458.
+[43.02755719097331] DEBUG: Shaked solution: The permutation [5, 6, 1, 7, 0, 12, 2, 10, 11, 14, 3, 4, 13, 9, 8] results in a cost of 88072
+[43.027573364001] DEBUG: Starting LocalSearch procedure.
+[49.751963682996575] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[49.75211438399856] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 4, 12, 9, 8] results in a cost of 52398
+[49.75214749999577] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[49.75229069698253] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((5, 9),) at index 61.
+[49.752433962974465] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 5, 2, 1, 11, 3, 12, 4, 13, 9, 8] results in a cost of 73722
+[49.75253400497604] DEBUG: Starting LocalSearch procedure.
+[49.78107036999427] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[49.78117534099147] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 0, 3, 7, 11, 1, 5, 12, 4, 13, 9, 8] results in a cost of 53948
+[49.781203614984406] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[49.78146254099556] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((9, 2),) at index 41.
+[49.78155902097933] DEBUG: Shaked solution: The permutation [14, 6, 5, 10, 7, 0, 3, 2, 1, 11, 12, 4, 13, 9, 8] results in a cost of 73848
+[49.7815882259747] DEBUG: Starting LocalSearch procedure.
+[49.808495719975326] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[49.80879682098748] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 12, 5, 11, 4, 13, 9, 8] results in a cost of 56036
+[49.808867154992186] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[49.80910015798872] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 6, 11), (1, 2, 0)) at index 1863.
+[49.809246393997455] DEBUG: Shaked solution: The permutation [2, 6, 10, 7, 0, 3, 4, 1, 11, 5, 12, 14, 13, 9, 8] results in a cost of 68948
+[49.80927772499854] DEBUG: Starting LocalSearch procedure.
+[49.99765495097381] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[49.99773471200024] DEBUG: Local searched solution: The permutation [7, 6, 8, 5, 0, 1, 2, 3, 4, 10, 11, 14, 12, 9, 13] results in a cost of 54956
+[49.99775535898516] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[49.99785564298509] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((4, 13), (6, 9)) at index 56.
+[49.99788839399116] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 9, 3, 5, 1, 11, 2, 12, 4, 13, 0, 8] results in a cost of 82730
+[49.99790503300028] DEBUG: Starting LocalSearch procedure.
+[50.566529043979244] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[50.56661331898067] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[50.5666360949981] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[50.56674456800101] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 3, 6, 13), (3, 1, 0, 2)) at index 28279.
+[50.56677824197686] DEBUG: Shaked solution: The permutation [14, 9, 10, 7, 0, 3, 6, 1, 11, 5, 12, 4, 13, 2, 8] results in a cost of 88452
+[50.566795081977034] DEBUG: Starting LocalSearch procedure.
+[52.46485185599886] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[52.46493374698912] DEBUG: Local searched solution: The permutation [13, 6, 1, 7, 11, 3, 10, 14, 2, 9, 12, 8, 0, 5, 4] results in a cost of 55310
+[52.4649552719784] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[52.465060144983] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((5, 12), (6, 9), (10, 13)) at index 21402.
+[52.46509400499053] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 13, 5, 1, 11, 2, 9, 4, 3, 12, 8] results in a cost of 92430
+[52.46511058797478] DEBUG: Starting LocalSearch procedure.
+[56.53769381897291] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[56.53778385097394] DEBUG: Local searched solution: The permutation [3, 0, 6, 1, 12, 5, 4, 8, 2, 9, 11, 13, 7, 10, 14] results in a cost of 53946
+[56.537809178000316] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[56.537920172995655] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((2, 14),) at index 66.
+[56.537958371976856] DEBUG: Shaked solution: The permutation [14, 6, 8, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 10] results in a cost of 55732
+[56.53797891398426] DEBUG: Starting LocalSearch procedure.
+[56.54756359898602] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[56.54771712998627] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[56.547743486997206] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[56.54791644398938] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((12, 3),) at index 94.
+[56.547985986981075] DEBUG: Shaked solution: The permutation [14, 6, 10, 13, 7, 0, 3, 2, 1, 11, 5, 12, 4, 9, 8] results in a cost of 88250
+[56.54802219499834] DEBUG: Starting LocalSearch procedure.
+[56.579160776978824] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[56.5792432029848] DEBUG: Local searched solution: The permutation [14, 6, 13, 10, 0, 7, 2, 3, 4, 8, 11, 12, 1, 9, 5] results in a cost of 61666
+[56.57926542297355] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[56.5793760259985] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 5, 13), (1, 0, 2)) at index 1419.
+[56.57940988999326] DEBUG: Shaked solution: The permutation [3, 6, 10, 7, 0, 14, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 56852
+[56.5794263369753] DEBUG: Starting LocalSearch procedure.
+[56.67466766198049] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[56.674745587981306] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[56.6747668539756] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[56.67486561500118] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 6), (7, 11)) at index 97.
+[56.67489778698655] DEBUG: Shaked solution: The permutation [14, 2, 10, 7, 0, 3, 6, 4, 11, 5, 12, 1, 13, 9, 8] results in a cost of 62730
+[56.67491432197858] DEBUG: Starting LocalSearch procedure.
+[57.15873722397373] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[57.158827377978014] DEBUG: Local searched solution: The permutation [0, 6, 1, 10, 14, 11, 7, 3, 2, 9, 12, 13, 4, 5, 8] results in a cost of 55280
+[57.158852713997476] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[57.15897222497733] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((0, 8, 10, 11), (0, 1, 3, 2)) at index 24693.
+[57.15900845397846] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 4, 12, 13, 9, 8] results in a cost of 56984
+[57.1590263559774] DEBUG: Starting LocalSearch procedure.
+[58.77055028398172] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[58.770642912975745] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[58.7706697069807] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[58.77078421699116] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((2, 10), (6, 14), (8, 9)) at index 25031.
+[58.770821963989874] DEBUG: Shaked solution: The permutation [14, 6, 12, 7, 0, 3, 8, 1, 5, 11, 10, 4, 13, 9, 2] results in a cost of 97482
+[58.77084240899421] DEBUG: Starting LocalSearch procedure.
+[67.08601335299318] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[67.08623714197893] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 4, 3, 7, 11, 13, 5, 0, 1, 12, 9, 8] results in a cost of 54594
+[67.08629620098509] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[67.08654409099836] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((2, 3),) at index 58.
+[67.08662528198329] DEBUG: Shaked solution: The permutation [14, 6, 7, 10, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 58236
+[67.08665310498327] DEBUG: Starting LocalSearch procedure.
+[67.09796764099156] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[67.09806386797572] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[67.09824458498042] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[67.09851387297385] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((11, 10),) at index 116.
+[67.09855958298431] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 4, 12, 13, 9, 8] results in a cost of 56984
+[67.09863533798489] DEBUG: Starting LocalSearch procedure.
+[67.12626717498642] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[67.12636837398168] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[67.12639551999746] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[67.12666737899417] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 3, 4), (1, 0, 2)) at index 449.
+[67.12681306098239] DEBUG: Shaked solution: The permutation [7, 6, 10, 14, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 62498
+[67.12695295998128] DEBUG: Starting LocalSearch procedure.
+[67.2981401149882] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[67.298288690974] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[67.29835604300024] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[67.29850251597236] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 13), (6, 10)) at index 3969.
+[67.29854447298567] DEBUG: Shaked solution: The permutation [14, 9, 10, 7, 0, 3, 12, 1, 11, 5, 2, 4, 13, 6, 8] results in a cost of 97454
+[67.29856568298419] DEBUG: Starting LocalSearch procedure.
+[67.89470549797988] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[67.89478395797778] DEBUG: Local searched solution: The permutation [11, 9, 6, 10, 8, 14, 13, 12, 7, 1, 3, 2, 4, 5, 0] results in a cost of 53966
+[67.89480582097895] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[67.89491137498408] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((2, 8, 10, 11), (2, 0, 1, 3)) at index 20125.
+[67.89494518798892] DEBUG: Shaked solution: The permutation [14, 6, 12, 7, 0, 3, 2, 1, 10, 5, 11, 4, 13, 9, 8] results in a cost of 57944
+[67.89496170298662] DEBUG: Starting LocalSearch procedure.
+[69.60380070697283] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[69.60388518098625] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[69.60390674698283] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[69.60400719198515] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((7, 12), (8, 9), (10, 13)) at index 3096.
+[69.60403972197673] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 13, 5, 11, 9, 4, 1, 12, 8] results in a cost of 98584
+[69.60405611098395] DEBUG: Starting LocalSearch procedure.
+[74.75305913097691] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[74.75315241399221] DEBUG: Local searched solution: The permutation [11, 2, 4, 1, 3, 5, 6, 7, 0, 9, 14, 10, 12, 8, 13] results in a cost of 54808
+[74.75317533197813] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[74.75328605397954] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((9, 10),) at index 14.
+[74.75332070799777] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 12, 5, 4, 13, 9, 8] results in a cost of 59058
+[74.75333857198711] DEBUG: Starting LocalSearch procedure.
+[74.75955230297404] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[74.75963679197594] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[74.7596586389991] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[74.7598290029855] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((11, 10),) at index 85.
+[74.75986710298457] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 4, 12, 13, 9, 8] results in a cost of 56984
+[74.7600635769777] DEBUG: Starting LocalSearch procedure.
+[74.7884218369727] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[74.78854238099302] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[74.7885738129844] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[74.78869969499647] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((6, 8, 13), (2, 1, 0)) at index 2211.
+[74.78873651399044] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 9, 1, 11, 5, 12, 4, 13, 2, 8] results in a cost of 84516
+[74.78875559597509] DEBUG: Starting LocalSearch procedure.
+[74.93558013800066] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[74.93567263198202] DEBUG: Local searched solution: The permutation [14, 6, 4, 2, 10, 3, 7, 11, 0, 5, 13, 1, 12, 8, 9] results in a cost of 55040
+[74.93569467798807] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[74.93579802699969] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((5, 6), (12, 13)) at index 3163.
+[74.93583169099293] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 2, 3, 1, 11, 5, 12, 4, 9, 13, 8] results in a cost of 67658
+[74.93584864598233] DEBUG: Starting LocalSearch procedure.
+[75.73163234899403] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[75.73172843799694] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[75.73175703099696] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[75.73188454299816] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((2, 9, 13, 14), (1, 2, 3, 0)) at index 1239.
+[75.73192711698357] DEBUG: Shaked solution: The permutation [14, 6, 5, 7, 0, 3, 2, 1, 11, 9, 12, 4, 13, 8, 10] results in a cost of 63868
+[75.73194822799996] DEBUG: Starting LocalSearch procedure.
+[77.54204663899145] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[77.54213050598628] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[77.54215289198328] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[77.54226167598972] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((2, 3), (5, 8), (12, 14)) at index 23327.
+[77.54229615998338] DEBUG: Shaked solution: The permutation [14, 6, 7, 10, 0, 11, 2, 1, 3, 5, 12, 4, 8, 9, 13] results in a cost of 63552
+[77.54231395298848] DEBUG: Starting LocalSearch procedure.
+[83.58734118498978] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[83.58743103197776] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 4, 12, 9, 8] results in a cost of 52398
+[83.58745532197645] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[83.58756948399241] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((0, 7),) at index 58.
+[83.5876059079892] DEBUG: Shaked solution: The permutation [1, 6, 10, 7, 0, 3, 2, 14, 11, 5, 12, 4, 13, 9, 8] results in a cost of 62092
+[83.5876246469852] DEBUG: Starting LocalSearch procedure.
+[83.59472701797495] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[83.59481232697726] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[83.59484079899266] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[83.59501295199152] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((11, 1),) at index 158.
+[83.59505813699798] DEBUG: Shaked solution: The permutation [14, 4, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 13, 9, 8] results in a cost of 94008
+[83.59508171398193] DEBUG: Starting LocalSearch procedure.
+[83.6201613539888] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[83.62029171799077] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[83.62038270899211] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[83.62051158299437] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 9, 11), (0, 2, 1)) at index 1555.
+[83.6205494349997] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 4, 12, 5, 13, 9, 8] results in a cost of 56134
+[83.62056853598915] DEBUG: Starting LocalSearch procedure.
+[83.73436224999023] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[83.73445185998571] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[83.73448192197247] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[83.73460186799639] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((2, 9), (4, 12)) at index 662.
+[83.7346439039975] DEBUG: Shaked solution: The permutation [14, 6, 5, 7, 13, 3, 2, 1, 11, 10, 12, 4, 0, 9, 8] results in a cost of 61664
+[83.73466814297717] DEBUG: Starting LocalSearch procedure.
+[84.043043312995] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[84.04313847597223] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[84.04316830297466] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[84.04329394098022] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 7, 9, 14), (3, 1, 0, 2)) at index 27581.
+[84.04333631898044] DEBUG: Shaked solution: The permutation [14, 8, 10, 7, 0, 3, 2, 1, 11, 6, 12, 4, 13, 9, 5] results in a cost of 80498
+[84.04336057198816] DEBUG: Starting LocalSearch procedure.
+[85.68392658198718] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[85.68401247897418] DEBUG: Local searched solution: The permutation [0, 2, 5, 3, 11, 7, 6, 10, 1, 8, 12, 4, 14, 9, 13] results in a cost of 54614
+[85.68403641597251] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[85.68415087499307] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 5), (3, 12), (6, 10)) at index 74710.
+[85.68418762498186] DEBUG: Shaked solution: The permutation [14, 3, 10, 13, 0, 6, 12, 1, 11, 5, 2, 4, 7, 9, 8] results in a cost of 111062
+[85.68420661997516] DEBUG: Starting LocalSearch procedure.
+[96.23905120999552] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[96.2391769309761] DEBUG: Local searched solution: The permutation [14, 3, 10, 7, 0, 6, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51720
+[96.23921201497433] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[96.23935425898526] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((5, 14),) at index 48.
+[96.23940266299178] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 8, 2, 1, 11, 5, 12, 4, 13, 9, 3] results in a cost of 66616
+[96.23942345398245] DEBUG: Starting LocalSearch procedure.
+[96.24621093698079] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[96.24635748297442] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[96.24640336597804] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[96.24663612499717] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((12, 10),) at index 120.
+[96.24670135098859] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 12, 4, 9, 8] results in a cost of 56798
+[96.2467278749973] DEBUG: Starting LocalSearch procedure.
+[96.27614841499599] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[96.27633818497998] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[96.2763879839913] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[96.2765687329811] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((2, 8, 12), (2, 1, 0)) at index 2132.
+[96.27681942199706] DEBUG: Shaked solution: The permutation [14, 6, 13, 7, 0, 3, 2, 1, 11, 5, 12, 4, 10, 9, 8] results in a cost of 53668
+[96.27687053798581] DEBUG: Starting LocalSearch procedure.
+[96.46837532799691] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[96.46846935999929] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[96.46849564797594] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[96.46861767198425] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 8), (3, 13)) at index 1192.
+[96.46865740697831] DEBUG: Shaked solution: The permutation [11, 6, 10, 9, 0, 3, 2, 1, 14, 5, 12, 4, 13, 7, 8] results in a cost of 81218
+[96.46867848097463] DEBUG: Starting LocalSearch procedure.
+[96.75281164399348] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[96.75290043698624] DEBUG: Local searched solution: The permutation [12, 5, 2, 1, 9, 0, 4, 8, 3, 10, 13, 14, 7, 6, 11] results in a cost of 55210
+[96.75292885198724] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[96.75305123598082] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((4, 8, 9, 12), (3, 0, 2, 1)) at index 30016.
+[96.7530940209981] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 13, 3, 2, 1, 0, 5, 12, 4, 11, 9, 8] results in a cost of 59542
+[96.75311819999479] DEBUG: Starting LocalSearch procedure.
+[98.44688728198525] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[98.44697898899904] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[98.44700309998007] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[98.44711607298814] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 12), (2, 11), (3, 13)) at index 28270.
+[98.44715309899766] DEBUG: Shaked solution: The permutation [13, 6, 4, 9, 0, 3, 2, 1, 11, 5, 12, 10, 14, 7, 8] results in a cost of 84790
+[98.44717211998068] DEBUG: Starting LocalSearch procedure.
+[105.81896055399557] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[105.81977051397553] DEBUG: Local searched solution: The permutation [13, 5, 11, 4, 3, 0, 1, 2, 6, 9, 12, 8, 7, 10, 14] results in a cost of 54648
+[105.81980445797672] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[105.81993443597457] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((6, 11),) at index 22.
+[105.81997014899389] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 4, 1, 11, 5, 12, 2, 13, 9, 8] results in a cost of 67094
+[105.81998800300062] DEBUG: Starting LocalSearch procedure.
+[105.83298847498372] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[105.83307747897925] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[105.8331020489859] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[105.83325437500025] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((12, 8),) at index 19.
+[105.83329131299979] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 13, 11, 5, 12, 4, 9, 8] results in a cost of 66088
+[105.83330912599922] DEBUG: Starting LocalSearch procedure.
+[105.86326985099004] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[105.86335159299779] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 4, 12, 9, 8] results in a cost of 52398
+[105.86337321499013] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[105.86347391197341] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((7, 9, 11), (1, 0, 2)) at index 1945.
+[105.86350765899988] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 5, 11, 1, 12, 4, 13, 9, 8] results in a cost of 63238
+[105.86356710499967] DEBUG: Starting LocalSearch procedure.
+[105.99887833298999] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[105.99899404199095] DEBUG: Local searched solution: The permutation [14, 6, 5, 2, 10, 3, 7, 11, 1, 4, 12, 0, 13, 9, 8] results in a cost of 54934
+[105.999021170981] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[105.99926365198917] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((4, 12), (6, 7)) at index 186.
+[105.9993272619904] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 13, 3, 1, 2, 11, 5, 12, 4, 0, 9, 8] results in a cost of 60434
+[105.99935153799015] DEBUG: Starting LocalSearch procedure.
+[106.36333670598106] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[106.36342125898227] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[106.36344246799126] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[106.3635442769737] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((0, 1, 2, 13), (1, 2, 3, 0)) at index 9449.
+[106.36357715699705] DEBUG: Shaked solution: The permutation [6, 10, 9, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 14, 8] results in a cost of 73160
+[106.36359390598955] DEBUG: Starting LocalSearch procedure.
+[108.34912869197433] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[108.34921533099259] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[108.34923815599177] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[108.3493438679725] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 11), (1, 10), (3, 4)) at index 22494.
+[108.34937718199217] DEBUG: Shaked solution: The permutation [4, 12, 10, 0, 7, 3, 2, 1, 11, 5, 6, 14, 13, 9, 8] results in a cost of 85352
+[108.34939422097523] DEBUG: Starting LocalSearch procedure.
+[112.2282075510011] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[112.22829613997601] DEBUG: Local searched solution: The permutation [14, 2, 10, 3, 4, 7, 1, 0, 11, 5, 13, 6, 12, 9, 8] results in a cost of 54788
+[112.22831969099934] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[112.22842352898442] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((6, 10),) at index 57.
+[112.22846188698895] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 12, 1, 11, 5, 2, 4, 13, 9, 8] results in a cost of 86970
+[112.22847895199084] DEBUG: Starting LocalSearch procedure.
+[112.23771450697677] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[112.23778541397769] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 0, 3, 7, 11, 1, 5, 12, 4, 13, 9, 8] results in a cost of 53948
+[112.2378063770011] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[112.23794480797369] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((1, 5),) at index 24.
+[112.23797805898357] DEBUG: Shaked solution: The permutation [14, 10, 7, 0, 3, 6, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 77416
+[112.23799497197615] DEBUG: Starting LocalSearch procedure.
+[112.2548467059969] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[112.25492816598853] DEBUG: Local searched solution: The permutation [14, 7, 10, 3, 0, 6, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 53776
+[112.25495040899841] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[112.2550537569914] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((4, 12, 14), (2, 0, 1)) at index 762.
+[112.25508682997315] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 8, 3, 2, 1, 11, 5, 12, 4, 0, 9, 13] results in a cost of 56616
+[112.25510355399456] DEBUG: Starting LocalSearch procedure.
+[112.34849607897922] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[112.34858112499933] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[112.34872179897502] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[112.34884077397874] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 4), (1, 14)) at index 2235.
+[112.34887477799202] DEBUG: Shaked solution: The permutation [0, 8, 10, 7, 14, 3, 2, 1, 11, 5, 12, 4, 13, 9, 6] results in a cost of 79894
+[112.34889179497259] DEBUG: Starting LocalSearch procedure.
+[112.62566684899502] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[112.62574637599755] DEBUG: Local searched solution: The permutation [13, 11, 1, 10, 14, 6, 7, 3, 2, 9, 12, 8, 0, 5, 4] results in a cost of 54922
+[112.62576852197526] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[112.62586840498261] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((0, 1, 6, 12), (3, 2, 0, 1)) at index 14211.
+[112.6259007799963] DEBUG: Shaked solution: The permutation [13, 2, 10, 7, 0, 3, 14, 1, 11, 5, 12, 4, 6, 9, 8] results in a cost of 85254
+[112.62591794598848] DEBUG: Starting LocalSearch procedure.
+[114.9196404729737] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[114.91972839899245] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[114.91975300697959] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[114.91985931398813] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 6), (2, 4), (7, 10)) at index 16494.
+[114.91989586298587] DEBUG: Shaked solution: The permutation [14, 2, 0, 7, 10, 3, 6, 12, 11, 5, 1, 4, 13, 9, 8] results in a cost of 79306
+[114.91991727499408] DEBUG: Starting LocalSearch procedure.
+[119.32714482597657] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[119.32722712898976] DEBUG: Local searched solution: The permutation [11, 6, 4, 7, 10, 3, 2, 1, 5, 9, 14, 13, 0, 8, 12] results in a cost of 55552
+[119.32724964397494] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[119.32739768299507] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((0, 8),) at index 8.
+[119.32744190099766] DEBUG: Shaked solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 14, 5, 12, 4, 13, 9, 8] results in a cost of 52524
+[119.3274616629933] DEBUG: Starting LocalSearch procedure.
+[119.33306235197233] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[119.33314267397509] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[119.33316507498967] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[119.33331064597587] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((8, 10),) at index 47.
+[119.33334453997668] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 5, 12, 11, 4, 13, 9, 8] results in a cost of 60406
+[119.33336200998747] DEBUG: Starting LocalSearch procedure.
+[119.34883112699026] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[119.34890982499928] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 12, 5, 11, 4, 13, 9, 8] results in a cost of 56036
+[119.34893176198239] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[119.34909623098793] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((2, 4, 8), (1, 0, 2)) at index 276.
+[119.34914247697452] DEBUG: Shaked solution: The permutation [14, 6, 0, 7, 10, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 60020
+[119.34916205797344] DEBUG: Starting LocalSearch procedure.
+[119.45834431197727] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[119.45843218499795] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[119.45845813598135] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[119.45857197997975] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((3, 8), (4, 6)) at index 1194.
+[119.45878824297688] DEBUG: Shaked solution: The permutation [14, 6, 10, 11, 2, 3, 0, 1, 7, 5, 12, 4, 13, 9, 8] results in a cost of 71892
+[119.45881400597864] DEBUG: Starting LocalSearch procedure.
+[119.90191090799635] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[119.9020137609914] DEBUG: Local searched solution: The permutation [14, 2, 10, 3, 6, 7, 1, 0, 11, 5, 12, 4, 13, 9, 8] results in a cost of 54186
+[119.90204085499863] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[119.90215871599503] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((0, 3, 7, 10), (3, 1, 2, 0)) at index 10383.
+[119.90219628499472] DEBUG: Shaked solution: The permutation [12, 6, 10, 7, 0, 3, 2, 1, 11, 5, 14, 4, 13, 9, 8] results in a cost of 53624
+[119.90221582897357] DEBUG: Starting LocalSearch procedure.
+[121.20816573197953] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[121.20825289899949] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[121.208278666978] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[121.20838234599796] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 4), (3, 11), (5, 8)) at index 2142.
+[121.20841995999217] DEBUG: Shaked solution: The permutation [0, 6, 10, 4, 14, 11, 2, 1, 3, 5, 12, 7, 13, 9, 8] results in a cost of 75682
+[121.20844153998769] DEBUG: Starting LocalSearch procedure.
+[131.0803864869813] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[131.08046757697593] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 13, 4, 12, 9, 8] results in a cost of 52398
+[131.0804887219856] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[131.0805856739753] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((0, 13),) at index 53.
+[131.0806174519821] DEBUG: Shaked solution: The permutation [9, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 14, 8] results in a cost of 62064
+[131.08063482498983] DEBUG: Starting LocalSearch procedure.
+[131.09335043199826] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[131.09338638497866] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[131.09340356799657] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[131.0935346049955] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((3, 10),) at index 157.
+[131.0935663379787] DEBUG: Shaked solution: The permutation [14, 6, 10, 0, 3, 2, 1, 11, 5, 12, 7, 4, 13, 9, 8] results in a cost of 87640
+[131.09358262098976] DEBUG: Starting LocalSearch procedure.
+[131.13319048497942] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[131.1332700549974] DEBUG: Local searched solution: The permutation [14, 5, 10, 6, 0, 3, 1, 2, 7, 13, 11, 12, 4, 9, 8] results in a cost of 59436
+[131.13329246098874] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[131.13339419898693] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 5, 10), (2, 1, 0)) at index 1507.
+[131.13342765698326] DEBUG: Shaked solution: The permutation [12, 6, 10, 7, 0, 3, 2, 1, 11, 5, 14, 4, 13, 9, 8] results in a cost of 53624
+[131.1334452359879] DEBUG: Starting LocalSearch procedure.
+[131.22798827997758] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[131.22808200999862] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[131.22811294998974] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[131.22822830299265] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((2, 3), (6, 12)) at index 3005.
+[131.22826752698165] DEBUG: Shaked solution: The permutation [14, 6, 7, 10, 0, 3, 13, 1, 11, 5, 12, 4, 2, 9, 8] results in a cost of 82228
+[131.22835273199598] DEBUG: Starting LocalSearch procedure.
+[131.47749494199525] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[131.47758024997893] DEBUG: Local searched solution: The permutation [1, 6, 13, 10, 2, 11, 7, 3, 14, 5, 0, 4, 12, 9, 8] results in a cost of 53182
+[131.47760765298153] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[131.4777192969923] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((3, 7, 13, 14), (2, 0, 3, 1)) at index 12518.
+[131.47775857997476] DEBUG: Shaked solution: The permutation [14, 6, 10, 9, 0, 3, 2, 7, 11, 5, 12, 4, 13, 8, 1] results in a cost of 80274
+[131.477781374997] DEBUG: Starting LocalSearch procedure.
+[132.8303887929942] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[132.83047413697932] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[132.8304973919876] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[132.8305993989925] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 11), (5, 6), (12, 13)) at index 3900.
+[132.83063184897765] DEBUG: Shaked solution: The permutation [14, 4, 10, 7, 0, 2, 3, 1, 11, 5, 12, 6, 9, 13, 8] results in a cost of 85110
+[132.83064852599637] DEBUG: Starting LocalSearch procedure.
+[140.89477436000016] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[140.8948735149752] DEBUG: Local searched solution: The permutation [13, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 14, 9, 8] results in a cost of 52996
+[140.8949107489898] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[140.8950486049871] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((6, 7),) at index 98.
+[140.89508881498477] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 1, 2, 11, 5, 12, 4, 13, 9, 8] results in a cost of 56034
+[140.89511173497885] DEBUG: Starting LocalSearch procedure.
+[140.90474869598984] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[140.9048313969979] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 7, 3, 1, 0, 11, 5, 12, 4, 13, 9, 8] results in a cost of 55206
+[140.90485365898348] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[140.90499846899183] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((4, 5),) at index 173.
+[140.9050323999836] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 3, 0, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 56100
+[140.90504994697403] DEBUG: Starting LocalSearch procedure.
+[140.92054716098937] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[140.92063681199215] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[140.92066476898617] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[140.92079127999023] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 3, 11), (2, 1, 0)) at index 795.
+[140.9208315089927] DEBUG: Shaked solution: The permutation [4, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 14, 13, 9, 8] results in a cost of 56664
+[140.920854942] DEBUG: Starting LocalSearch procedure.
+[141.17813332899823] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[141.17821713499143] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[141.17823984497227] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[141.1783390159835] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 8), (11, 12)) at index 1674.
+[141.17837229397264] DEBUG: Shaked solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 14, 5, 12, 13, 4, 9, 8] results in a cost of 56446
+[141.17838937198394] DEBUG: Starting LocalSearch procedure.
+[141.52111450998927] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[141.52119435797795] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[141.5213398389751] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[141.52145267397282] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((4, 7, 9, 13), (2, 1, 0, 3)) at index 13964.
+[141.52148705997388] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 5, 3, 2, 1, 11, 0, 12, 4, 13, 9, 8] results in a cost of 60352
+[141.5215042429918] DEBUG: Starting LocalSearch procedure.
+[142.76935338997282] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[142.76943527598632] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[142.7694581579999] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[142.76956111297477] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 4), (3, 11), (5, 8)) at index 71501.
+[142.7695946339809] DEBUG: Shaked solution: The permutation [14, 0, 10, 4, 6, 11, 2, 1, 3, 5, 12, 7, 13, 9, 8] results in a cost of 72072
+[142.76961255198694] DEBUG: Starting LocalSearch procedure.
+[146.24568250597804] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[146.24577142400085] DEBUG: Local searched solution: The permutation [14, 6, 13, 7, 0, 3, 2, 1, 5, 10, 12, 11, 4, 9, 8] results in a cost of 54066
+[146.24579788098345] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[146.24590085999807] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((7, 12),) at index 53.
+[146.2459335719759] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 13, 11, 5, 12, 4, 1, 9, 8] results in a cost of 68158
+[146.245951193996] DEBUG: Starting LocalSearch procedure.
+[146.2549207219854] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[146.25500031397678] DEBUG: Local searched solution: The permutation [14, 6, 10, 2, 0, 3, 7, 11, 1, 5, 12, 4, 13, 9, 8] results in a cost of 53948
+[146.25502336898353] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[146.2551674899878] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((13, 0),) at index 198.
+[146.25520221798797] DEBUG: Shaked solution: The permutation [9, 14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 8] results in a cost of 96204
+[146.2552203499945] DEBUG: Starting LocalSearch procedure.
+[146.26966689198161] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[146.26974849798717] DEBUG: Local searched solution: The permutation [9, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 14, 13, 8] results in a cost of 60184
+[146.26977100898512] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[146.2698723729991] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((2, 3, 14), (0, 2, 1)) at index 1768.
+[146.26990533497883] DEBUG: Shaked solution: The permutation [14, 6, 10, 8, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 7] results in a cost of 74708
+[146.26992281497223] DEBUG: Starting LocalSearch procedure.
+[146.3732209649752] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[146.3733055869816] DEBUG: Local searched solution: The permutation [11, 8, 10, 12, 9, 13, 4, 0, 14, 5, 3, 1, 7, 6, 2] results in a cost of 54186
+[146.37332752297516] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[146.37342599898693] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 7), (2, 4)) at index 160.
+[146.37345869699493] DEBUG: Shaked solution: The permutation [14, 1, 0, 7, 10, 3, 2, 6, 11, 5, 12, 4, 13, 9, 8] results in a cost of 70388
+[146.37347597599728] DEBUG: Starting LocalSearch procedure.
+[146.5377087239758] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[146.53779116499936] DEBUG: Local searched solution: The permutation [14, 2, 10, 3, 6, 7, 1, 0, 11, 5, 12, 4, 13, 9, 8] results in a cost of 54186
+[146.5378179839754] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[146.5379267669923] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((6, 7, 10, 14), (1, 0, 2, 3)) at index 28660.
+[146.53809358397848] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 1, 2, 11, 5, 12, 4, 13, 9, 8] results in a cost of 56034
+[146.53812052999274] DEBUG: Starting LocalSearch procedure.
+[147.84575516998302] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[147.8458410029998] DEBUG: Local searched solution: The permutation [14, 2, 10, 3, 6, 7, 1, 0, 11, 5, 12, 4, 13, 9, 8] results in a cost of 54186
+[147.84586917900015] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[147.84597666698392] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((5, 10), (6, 8), (12, 14)) at index 2103.
+[147.8460158709786] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 12, 11, 1, 2, 5, 3, 4, 8, 9, 13] results in a cost of 83306
+[147.84603866399266] DEBUG: Starting LocalSearch procedure.
+[153.05848945397884] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[153.05857587099308] DEBUG: Local searched solution: The permutation [11, 2, 4, 1, 3, 5, 6, 7, 0, 9, 14, 10, 12, 8, 13] results in a cost of 54808
+[153.05859828798566] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[153.0586939789937] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((7, 8),) at index 12.
+[153.05872559198178] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 11, 1, 5, 12, 4, 13, 9, 8] results in a cost of 64016
+[153.05874284697347] DEBUG: Starting LocalSearch procedure.
+[153.06249498497345] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[153.06253161499626] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[153.0625497539877] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[153.06267718499294] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((3, 6),) at index 147.
+[153.06270868098363] DEBUG: Shaked solution: The permutation [14, 6, 10, 0, 3, 2, 7, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 77240
+[153.0627253499988] DEBUG: Starting LocalSearch procedure.
+[153.08294180798111] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[153.08301234597457] DEBUG: Local searched solution: The permutation [14, 7, 1, 6, 0, 10, 2, 3, 11, 5, 12, 4, 13, 9, 8] results in a cost of 59692
+[153.08303404599428] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[153.08313084798283] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((0, 6, 10), (1, 2, 0)) at index 705.
+[153.0831632569898] DEBUG: Shaked solution: The permutation [2, 6, 10, 7, 0, 3, 12, 1, 11, 5, 14, 4, 13, 9, 8] results in a cost of 86612
+[153.08318029498332] DEBUG: Starting LocalSearch procedure.
+[153.49264851000044] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[153.49273934197845] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[153.49276536298566] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[153.4928812419821] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((8, 13), (9, 14)) at index 76.
+[153.49291974600055] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 9, 8, 12, 4, 13, 11, 5] results in a cost of 69344
+[153.49294080300024] DEBUG: Starting LocalSearch procedure.
+[153.66610876197228] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[153.6661919549806] DEBUG: Local searched solution: The permutation [14, 6, 13, 7, 0, 3, 2, 1, 10, 5, 12, 4, 11, 9, 8] results in a cost of 53694
+[153.6662150560005] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[153.66631442599464] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((0, 8, 13, 14), (0, 3, 2, 1)) at index 6233.
+[153.66634635897935] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 8, 5, 12, 4, 13, 9, 11] results in a cost of 56832
+[153.66640428398387] DEBUG: Starting LocalSearch procedure.
+[154.90950466197683] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[154.9095882649999] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[154.90961522900034] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[154.90971947397338] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 4), (7, 13), (8, 12)) at index 64343.
+[154.90975664299913] DEBUG: Shaked solution: The permutation [0, 6, 10, 7, 14, 3, 2, 9, 13, 5, 12, 4, 11, 1, 8] results in a cost of 81124
+[154.90977945597842] DEBUG: Starting LocalSearch procedure.
+[159.38265123899328] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[159.3827337489929] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 8, 9, 13] results in a cost of 52340
+[159.38275543498457] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[159.38284917798592] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((2, 13),) at index 98.
+[159.38288024198846] DEBUG: Shaked solution: The permutation [14, 6, 9, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 10, 8] results in a cost of 57802
+[159.38289703198825] DEBUG: Starting LocalSearch procedure.
+[159.39209931899677] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[159.39216668898007] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[159.3921877219982] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[159.39231866499176] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((7, 0),) at index 133.
+[159.3923504179984] DEBUG: Shaked solution: The permutation [1, 14, 6, 10, 7, 0, 3, 2, 11, 5, 12, 4, 13, 9, 8] results in a cost of 71418
+[159.3923673759855] DEBUG: Starting LocalSearch procedure.
+[159.40643229399575] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[159.40650567397824] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[159.406526413979] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[159.40662432499812] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((1, 8, 12), (0, 2, 1)) at index 1251.
+[159.40665520197945] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 13, 5, 12, 4, 11, 9, 8] results in a cost of 53842
+[159.40667186197243] DEBUG: Starting LocalSearch procedure.
+[159.49051562897512] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[159.49059525399935] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[159.49061791499844] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[159.49071062798612] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((5, 8), (6, 11)) at index 4016.
+[159.49074141998426] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 11, 4, 1, 3, 5, 12, 2, 13, 9, 8] results in a cost of 70650
+[159.49075835198164] DEBUG: Starting LocalSearch procedure.
+[159.86622623898438] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[159.86632511598873] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[159.86635753099108] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[159.86649255498196] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((3, 5, 7, 14), (3, 1, 2, 0)) at index 11121.
+[159.8665383029729] DEBUG: Shaked solution: The permutation [14, 6, 10, 8, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 7] results in a cost of 74708
+[159.86656502398546] DEBUG: Starting LocalSearch procedure.
+[161.1599340759858] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[161.1600177809887] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[161.16013327197288] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[161.16023610997945] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 12), (3, 11), (13, 14)) at index 46281.
+[161.16026847198373] DEBUG: Shaked solution: The permutation [13, 6, 10, 4, 0, 3, 2, 1, 11, 5, 12, 7, 14, 8, 9] results in a cost of 76834
+[161.16028546198504] DEBUG: Starting LocalSearch procedure.
+[167.44251931697363] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[167.44260616297834] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 8, 9, 13] results in a cost of 52340
+[167.44264424499124] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[167.44274280098034] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((5, 12),) at index 91.
+[167.4427769309841] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 13, 2, 1, 11, 5, 12, 4, 3, 9, 8] results in a cost of 63022
+[167.4427955109859] DEBUG: Starting LocalSearch procedure.
+[167.4613412959734] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[167.4614694979973] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[167.46151717798784] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[167.46170059998985] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((14, 3),) at index 66.
+[167.46173893800005] DEBUG: Shaked solution: The permutation [14, 6, 10, 8, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9] results in a cost of 95644
+[167.46176157399896] DEBUG: Starting LocalSearch procedure.
+[167.4904103469744] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[167.4904920309782] DEBUG: Local searched solution: The permutation [14, 10, 8, 7, 0, 3, 2, 1, 11, 13, 4, 12, 6, 9, 5] results in a cost of 65538
+[167.49051568997675] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[167.4906179229729] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((6, 8, 12), (0, 2, 1)) at index 138.
+[167.4906649439945] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 13, 5, 12, 4, 11, 9, 8] results in a cost of 53842
+[167.49068232197897] DEBUG: Starting LocalSearch procedure.
+[167.6477753459767] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[167.64788836799562] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[167.6479194049898] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[167.64804532798007] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 7), (3, 6)) at index 3526.
+[167.64808730597724] DEBUG: Shaked solution: The permutation [1, 6, 10, 2, 0, 3, 7, 14, 11, 5, 12, 4, 13, 9, 8] results in a cost of 63496
+[167.64810934499837] DEBUG: Starting LocalSearch procedure.
+[168.3045553729753] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[168.3046425669745] DEBUG: Local searched solution: The permutation [4, 6, 10, 2, 14, 3, 7, 11, 8, 5, 0, 1, 12, 9, 13] results in a cost of 54230
+[168.3046678339888] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[168.3047841359803] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 3, 13, 14), (3, 2, 0, 1)) at index 4169.
+[168.30482023299555] DEBUG: Shaked solution: The permutation [14, 8, 10, 9, 0, 3, 2, 1, 11, 5, 12, 4, 13, 6, 7] results in a cost of 71708
+[168.30483948098845] DEBUG: Starting LocalSearch procedure.
+[170.7612847899727] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[170.7613668779959] DEBUG: Local searched solution: The permutation [13, 1, 6, 0, 7, 4, 2, 3, 5, 9, 12, 8, 11, 10, 14] results in a cost of 55072
+[170.76138922199607] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[170.7614906729723] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 10), (2, 3), (9, 13)) at index 55321.
+[170.76163816297776] DEBUG: Shaked solution: The permutation [12, 6, 7, 10, 0, 3, 2, 1, 11, 9, 14, 4, 13, 5, 8] results in a cost of 67280
+[170.76165840498288] DEBUG: Starting LocalSearch procedure.
+[178.09214307297952] DEBUG: Reached local optimum of 3-Swap neighborhood. Stop local search.
+[178.09226682997542] DEBUG: Local searched solution: The permutation [11, 6, 10, 7, 0, 3, 2, 1, 14, 5, 12, 4, 13, 9, 8] results in a cost of 52524
+[178.092296961986] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.09241896599997] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((0, 3),) at index 63.
+[178.0924592159863] DEBUG: Shaked solution: The permutation [7, 6, 10, 14, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 62498
+[178.09248103699065] DEBUG: Starting LocalSearch procedure.
+[178.0992984539771] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[178.09944709498086] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[178.09948983998038] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.0998754199827] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((14, 11),) at index 3.
+[178.09995478598285] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 8, 4, 13, 9] results in a cost of 63800
+[178.0999894119741] DEBUG: Starting LocalSearch procedure.
+[178.12700103397947] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[178.12712546097464] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 8, 12, 4, 5, 9, 13] results in a cost of 53244
+[178.12716877597268] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.12735434697242] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((1, 8, 11), (1, 2, 0)) at index 957.
+[178.1274247309775] DEBUG: Shaked solution: The permutation [14, 11, 10, 7, 0, 3, 2, 1, 4, 5, 12, 6, 13, 9, 8] results in a cost of 61068
+[178.12746020697523] DEBUG: Starting LocalSearch procedure.
+[178.31350167799974] DEBUG: Reached local optimum of 3-Permute neighborhood. Stop local search.
+[178.31385673498153] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[178.3139258879819] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.31419681798434] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((0, 8), (2, 6)) at index 1242.
+[178.31428425898775] DEBUG: Shaked solution: The permutation [11, 6, 2, 7, 0, 3, 10, 1, 14, 5, 12, 4, 13, 9, 8] results in a cost of 71176
+[178.31431481297477] DEBUG: Starting LocalSearch procedure.
+[178.85603585699573] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[178.85612255899468] DEBUG: Local searched solution: The permutation [14, 2, 10, 3, 6, 7, 1, 0, 11, 5, 12, 4, 13, 9, 8] results in a cost of 54186
+[178.85614970797906] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.85626150699682] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((1, 2, 5, 10), (0, 1, 3, 2)) at index 29908.
+[178.85629743197933] DEBUG: Shaked solution: The permutation [14, 6, 10, 7, 0, 12, 2, 1, 11, 5, 3, 4, 13, 9, 8] results in a cost of 63756
+[178.85631799997645] DEBUG: Starting LocalSearch procedure.
+[180.00004603198613] DEBUG: Reached local optimum of 4-Permute neighborhood. Stop local search.
+[180.0001790659735] DEBUG: Local searched solution: The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[180.0002483179851] INFO: VNS finished after 143 iterations.
+[180.00062749098288] INFO: Best found Solution.
+The permutation [14, 6, 10, 7, 0, 3, 2, 1, 11, 5, 12, 4, 13, 9, 8] results in a cost of 51140
+[180.01361829499365] INFO: Saving solution and logs to file.

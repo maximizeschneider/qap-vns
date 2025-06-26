@@ -1,0 +1,406 @@
+[0.0008251849794760346] INFO: Starting search.
+[0.0009044839825946838] INFO: Starting construction phase.
+[0.0009367390011902899] INFO: Generating an initial solution according to 500-increasing_dof.
+[62.591098790988326] INFO: Solution updated in constructive phase.
+[62.59140847498202] INFO: Constructive solution found.
+The permutation [2, 15, 20, 23, 9, 4, 11, 18, 3, 10, 16, 19, 14, 24, 17, 0, 21, 22, 13, 5, 8, 6, 12, 1, 7] results in a cost of 535899967
+[62.59145460900618] INFO: Starting variable neighborhood search phase.
+[62.59148386598099] DEBUG: Creating neighborhood 1-Swap for VNS.
+[62.591650772985304] DEBUG: Neighborhood 1-Swap for VNS created.
+[62.59170227998402] DEBUG: Creating neighborhood 1-Insertion for VNS.
+[62.59208501398098] DEBUG: Neighborhood 1-Insertion for VNS created.
+[62.592104404990096] DEBUG: Creating neighborhood 3-Permute for VNS.
+[62.59295895998366] DEBUG: Neighborhood 3-Permute for VNS created.
+[62.592979673994705] DEBUG: Creating neighborhood 2-Swap for VNS.
+[62.61313585299649] DEBUG: Neighborhood 2-Swap for VNS created.
+[62.613194918987574] DEBUG: Creating neighborhood 4-Permute for VNS.
+[62.62821521400474] DEBUG: Neighborhood 4-Permute for VNS created.
+[62.628278254007455] DEBUG: Creating neighborhood 3-Swap for VNS.
+[65.45953381998697] DEBUG: Neighborhood 3-Swap for VNS created.
+[65.45959901998867] DEBUG: Neighborhood 1-Swap reused for VND.
+[65.45961744099623] DEBUG: Neighborhood 1-Insertion reused for VND.
+[65.45963056798792] DEBUG: Neighborhood 2-Swap reused for VND.
+[65.45966988199507] DEBUG: Shaked solution: The permutation [2, 15, 20, 23, 9, 4, 11, 18, 3, 10, 16, 19, 14, 24, 17, 0, 21, 22, 13, 5, 8, 6, 12, 1, 7] results in a cost of 535899967
+[65.45969157799846] DEBUG: Starting B-VND procedure.
+[65.53772873498383] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[65.53778807100025] DEBUG: Starting Sequential neighborhood change procedure for VND
+[65.53781852198881] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[65.55506817798596] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[65.55511253199074] DEBUG: Starting Sequential neighborhood change procedure for VND
+[65.60953733799397] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[65.60959841599106] DEBUG: Starting Sequential neighborhood change procedure for VND
+[70.15192443100386] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[70.1519831949845] DEBUG: Starting Sequential neighborhood change procedure for VND
+[70.15201384999091] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[70.16960953598027] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[70.16966556300758] DEBUG: Starting Sequential neighborhood change procedure for VND
+[70.2285342119867] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[70.22859041500487] DEBUG: Starting Sequential neighborhood change procedure for VND
+[72.8186382970016] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[72.81869455298875] DEBUG: Starting Sequential neighborhood change procedure for VND
+[72.81875238299835] DEBUG: Local searched solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 10, 16, 13, 14, 24, 17, 7, 21, 22, 19, 5, 8, 6, 0, 1, 12] results in a cost of 501541255
+[72.81877112897928] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[72.81879545300035] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[72.8188227339997] DEBUG: Solution updated in VNS.
+[72.81884819900733] INFO: New solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 10, 16, 13, 14, 24, 17, 7, 21, 22, 19, 5, 8, 6, 0, 1, 12] results in a cost of 501541255
+[72.81928830500692] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((9, 17),) at index 187.
+[72.81933052299428] DEBUG: Shaked solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 22, 16, 13, 14, 24, 17, 7, 21, 10, 19, 5, 8, 6, 0, 1, 12] results in a cost of inf
+[72.81938432299648] DEBUG: Starting B-VND procedure.
+[72.85390099999495] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[72.85395241700462] DEBUG: Starting Sequential neighborhood change procedure for VND
+[72.85398470598739] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[72.8711500960053] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[72.8711939159839] DEBUG: Starting Sequential neighborhood change procedure for VND
+[72.92394251198857] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[72.92399942298653] DEBUG: Starting Sequential neighborhood change procedure for VND
+[75.17944056898705] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[75.1794990519993] DEBUG: Starting Sequential neighborhood change procedure for VND
+[75.17955336498562] DEBUG: Local searched solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 10, 16, 13, 14, 24, 17, 7, 21, 22, 19, 5, 8, 6, 0, 1, 12] results in a cost of 501541255
+[75.17957177700009] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[75.17972691098112] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((19, 10),) at index 466.
+[75.17976008797996] DEBUG: Shaked solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 10, 5, 16, 13, 14, 24, 17, 7, 21, 22, 19, 8, 6, 0, 1, 12] results in a cost of inf
+[75.17977453998174] DEBUG: Starting B-VND procedure.
+[75.19602237798972] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[75.1960516209947] DEBUG: Starting Sequential neighborhood change procedure for VND
+[75.30056388798403] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[75.3006230199826] DEBUG: Starting Sequential neighborhood change procedure for VND
+[75.30065537698101] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[75.31730219299789] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[75.31735621899134] DEBUG: Starting Sequential neighborhood change procedure for VND
+[75.37008732100367] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[75.37014407198876] DEBUG: Starting Sequential neighborhood change procedure for VND
+[77.60749218799174] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[77.60755312998663] DEBUG: Starting Sequential neighborhood change procedure for VND
+[77.6076100890059] DEBUG: Local searched solution: The permutation [4, 15, 2, 23, 9, 20, 11, 18, 3, 10, 16, 13, 14, 24, 17, 7, 21, 22, 19, 5, 8, 6, 0, 1, 12] results in a cost of 501541255
+[77.6076298999833] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[77.60774832899915] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((1, 15, 21), (1, 2, 0)) at index 2447.
+[77.60778187098913] DEBUG: Shaked solution: The permutation [4, 7, 2, 23, 9, 20, 11, 18, 3, 10, 16, 13, 14, 24, 17, 6, 21, 22, 19, 5, 8, 15, 0, 1, 12] results in a cost of inf
+[77.60779670500779] DEBUG: Starting B-VND procedure.
+[77.62535555197974] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[77.62541435600724] DEBUG: Starting Sequential neighborhood change procedure for VND
+[77.68398688698653] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[77.68404918798478] DEBUG: Starting Sequential neighborhood change procedure for VND
+[95.52201958198566] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[95.52207509800792] DEBUG: Starting Sequential neighborhood change procedure for VND
+[95.52210763999028] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[95.55329325498315] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[95.55334582799696] DEBUG: Starting Sequential neighborhood change procedure for VND
+[95.553373267001] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[95.56989656499354] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[95.56994375798968] DEBUG: Starting Sequential neighborhood change procedure for VND
+[95.64025582899922] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[95.6403115229914] DEBUG: Starting Sequential neighborhood change procedure for VND
+[97.68328092098818] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[97.68333765299758] DEBUG: Starting Sequential neighborhood change procedure for VND
+[97.68339044399909] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[97.68340861299657] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[97.68343114500749] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[97.68345680899802] DEBUG: Solution updated in VNS.
+[97.68348107699421] INFO: New solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[97.68394910599454] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((6, 15),) at index 137.
+[97.68399016399053] DEBUG: Shaked solution: The permutation [3, 5, 0, 23, 9, 4, 7, 18, 20, 10, 16, 11, 14, 24, 17, 13, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of inf
+[97.68400653798017] DEBUG: Starting B-VND procedure.
+[97.71945069299545] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[97.71951580798486] DEBUG: Starting Sequential neighborhood change procedure for VND
+[97.7195530750032] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[97.73887463498977] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[97.73895722499583] DEBUG: Starting Sequential neighborhood change procedure for VND
+[97.79236383698299] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[97.79242313199211] DEBUG: Starting Sequential neighborhood change procedure for VND
+[99.99284775700653] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[99.99294338398613] DEBUG: Starting Sequential neighborhood change procedure for VND
+[99.99302349300706] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[99.99304907600163] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[99.99326359599945] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((11, 4),) at index 268.
+[99.99330622598063] DEBUG: Shaked solution: The permutation [3, 5, 0, 23, 11, 9, 4, 13, 18, 20, 10, 16, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of inf
+[99.99332303600386] DEBUG: Starting B-VND procedure.
+[100.01309338698047] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[100.01315184897976] DEBUG: Starting Sequential neighborhood change procedure for VND
+[100.11291192300268] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[100.11296736099757] DEBUG: Starting Sequential neighborhood change procedure for VND
+[100.1129992439819] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[100.12809641400236] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[100.12814662099117] DEBUG: Starting Sequential neighborhood change procedure for VND
+[100.1851833149849] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[100.18525071899057] DEBUG: Starting Sequential neighborhood change procedure for VND
+[102.33265211299295] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[102.33270877500763] DEBUG: Starting Sequential neighborhood change procedure for VND
+[102.33276286200271] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[102.33282551998855] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[102.33294339198619] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((14, 18, 21), (2, 0, 1)) at index 10808.
+[102.33297465299256] DEBUG: Shaked solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 2, 7, 22, 19, 17, 21, 15, 1, 6, 8, 12] results in a cost of inf
+[102.3329883510014] DEBUG: Starting B-VND procedure.
+[102.34847928298404] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[102.34851848799735] DEBUG: Starting Sequential neighborhood change procedure for VND
+[102.39601193799172] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[102.39606934698531] DEBUG: Starting Sequential neighborhood change procedure for VND
+[104.81767209799727] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[104.81773360198713] DEBUG: Starting Sequential neighborhood change procedure for VND
+[104.81781117999344] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 2, 7, 22, 19, 17, 21, 15, 1, 6, 8, 12] results in a cost of inf
+[104.81783095598803] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[104.81795214599697] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 9), (2, 6)) at index 7692.
+[104.81798523900216] DEBUG: Shaked solution: The permutation [3, 10, 13, 23, 9, 4, 0, 18, 20, 5, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of inf
+[104.81799998000497] DEBUG: Starting B-VND procedure.
+[104.87325375599903] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[104.8733189299819] DEBUG: Starting Sequential neighborhood change procedure for VND
+[104.87335465100477] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[104.89112285498413] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[104.89118991000578] DEBUG: Starting Sequential neighborhood change procedure for VND
+[104.94425569198211] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[104.94432400498772] DEBUG: Starting Sequential neighborhood change procedure for VND
+[107.08159672498005] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[107.08165344098234] DEBUG: Starting Sequential neighborhood change procedure for VND
+[107.08171213499736] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[107.08173012899351] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[107.08185797798797] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((2, 4, 12, 24), (2, 1, 0, 3)) at index 94957.
+[107.08188824699027] DEBUG: Shaked solution: The permutation [3, 5, 14, 23, 9, 4, 13, 18, 20, 10, 16, 11, 0, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 436596516
+[107.08190155500779] DEBUG: Starting B-VND procedure.
+[107.11312903297949] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[107.11318280498381] DEBUG: Starting Sequential neighborhood change procedure for VND
+[107.11321037699236] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[107.12924844300142] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[107.12930294600665] DEBUG: Starting Sequential neighborhood change procedure for VND
+[107.17682939398219] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[107.17688356500003] DEBUG: Starting Sequential neighborhood change procedure for VND
+[109.39334806398256] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[109.39340691000689] DEBUG: Starting Sequential neighborhood change procedure for VND
+[109.39345920298365] DEBUG: Local searched solution: The permutation [3, 5, 0, 23, 9, 4, 13, 18, 20, 10, 16, 11, 14, 24, 17, 7, 22, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of 431885080
+[109.39351655499195] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[109.39363867099746] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((0, 3), (2, 7), (8, 16)) at index 58381.
+[109.39366941398475] DEBUG: Shaked solution: The permutation [23, 5, 18, 3, 9, 4, 13, 0, 22, 10, 16, 11, 14, 24, 17, 7, 20, 19, 1, 21, 15, 2, 6, 8, 12] results in a cost of inf
+[109.39368291999563] DEBUG: Starting B-VND procedure.
+[109.40900497298571] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[109.40906485999585] DEBUG: Starting Sequential neighborhood change procedure for VND
+[109.46445077599492] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[109.46451084598084] DEBUG: Starting Sequential neighborhood change procedure for VND
+[131.19363400098518] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[131.19370543397963] DEBUG: Starting Sequential neighborhood change procedure for VND
+[131.19373831199482] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[131.2256612420024] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[131.2257156269916] DEBUG: Starting Sequential neighborhood change procedure for VND
+[131.22574344699387] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[131.2417977709847] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[131.24184861200047] DEBUG: Starting Sequential neighborhood change procedure for VND
+[131.29540715998155] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[131.2954766539915] DEBUG: Starting Sequential neighborhood change procedure for VND
+[133.64278457299224] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[133.64284650798072] DEBUG: Starting Sequential neighborhood change procedure for VND
+[133.6429038179922] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[133.64292393898359] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[133.64294880599482] DEBUG: Solution search is better than current solution. Reset VNS neighborhood type to first.
+[133.6429763409833] DEBUG: Solution updated in VNS.
+[133.6430009479809] INFO: New solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[133.6433733679878] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((1, 23),) at index 45.
+[133.64341559098102] DEBUG: Shaked solution: The permutation [15, 8, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 5, 6] results in a cost of inf
+[133.6434332249919] DEBUG: Starting B-VND procedure.
+[133.6768179719802] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[133.6768767409958] DEBUG: Starting Sequential neighborhood change procedure for VND
+[133.67690940998727] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[133.69396039799904] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[133.69401735198335] DEBUG: Starting Sequential neighborhood change procedure for VND
+[133.74618463599472] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[133.74624453898286] DEBUG: Starting Sequential neighborhood change procedure for VND
+[136.02080326798023] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[136.02086793800117] DEBUG: Starting Sequential neighborhood change procedure for VND
+[136.02092902400182] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[136.02094999098335] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[136.02112189898617] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((24, 12),) at index 588.
+[136.02119802098605] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 6, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8] results in a cost of inf
+[136.0212172679894] DEBUG: Starting B-VND procedure.
+[136.03984654700616] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[136.03990611300105] DEBUG: Starting Sequential neighborhood change procedure for VND
+[136.1466413519811] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[136.14669816399692] DEBUG: Starting Sequential neighborhood change procedure for VND
+[136.1467305289989] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[136.16376925600343] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[136.1638301719795] DEBUG: Starting Sequential neighborhood change procedure for VND
+[136.21650447900174] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[136.21656332799466] DEBUG: Starting Sequential neighborhood change procedure for VND
+[138.29764032398816] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[138.29769981198478] DEBUG: Starting Sequential neighborhood change procedure for VND
+[138.29775594198145] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[138.29777371999808] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[138.29788648200338] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((11, 13, 15), (2, 0, 1)) at index 9748.
+[138.29791717798798] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 7, 13, 11, 17, 16, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[138.29793074500049] DEBUG: Starting B-VND procedure.
+[138.31327518398757] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[138.31331341899931] DEBUG: Starting Sequential neighborhood change procedure for VND
+[138.36207016700064] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[138.36212746199453] DEBUG: Starting Sequential neighborhood change procedure for VND
+[144.99681720498484] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[144.99687536899] DEBUG: Starting Sequential neighborhood change procedure for VND
+[144.99690631899284] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[145.02836473999196] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[145.02841952000745] DEBUG: Starting Sequential neighborhood change procedure for VND
+[145.02845007600263] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[145.0439740709844] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[145.04402583898627] DEBUG: Starting Sequential neighborhood change procedure for VND
+[145.0928198049951] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[145.09287517599296] DEBUG: Starting Sequential neighborhood change procedure for VND
+[147.3338646290067] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[147.33393095099018] DEBUG: Starting Sequential neighborhood change procedure for VND
+[147.33399163599825] DEBUG: Local searched solution: The permutation [0, 5, 20, 23, 9, 4, 15, 14, 24, 10, 2, 16, 11, 13, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 379025011
+[147.33401417499408] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[147.3341348359827] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((1, 18), (5, 12)) at index 9834.
+[147.3341724619968] DEBUG: Shaked solution: The permutation [15, 1, 20, 23, 9, 13, 0, 14, 24, 10, 2, 11, 4, 16, 17, 7, 22, 19, 5, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[147.33418993398664] DEBUG: Starting B-VND procedure.
+[147.352372163994] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[147.35243350898963] DEBUG: Starting Sequential neighborhood change procedure for VND
+[147.40827287000138] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[147.4083360999939] DEBUG: Starting Sequential neighborhood change procedure for VND
+[151.63964486698387] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[151.63970314900507] DEBUG: Starting Sequential neighborhood change procedure for VND
+[151.6397377429821] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[151.65655626999796] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[151.6566139619972] DEBUG: Starting Sequential neighborhood change procedure for VND
+[151.7134902609978] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[151.7135522759927] DEBUG: Starting Sequential neighborhood change procedure for VND
+[154.045133926993] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[154.04524040600518] DEBUG: Starting Sequential neighborhood change procedure for VND
+[154.04533107500174] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[154.04535498900805] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[154.045491811994] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((6, 7, 16, 24), (0, 3, 1, 2)) at index 204266.
+[154.04552663999493] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 6, 24, 10, 2, 11, 13, 16, 17, 7, 14, 19, 1, 21, 18, 3, 12, 8, 22] results in a cost of inf
+[154.04554451600416] DEBUG: Starting B-VND procedure.
+[154.09761701300158] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[154.09767834699596] DEBUG: Starting Sequential neighborhood change procedure for VND
+[154.0977142789925] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[154.1139438689861] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[154.11398599200766] DEBUG: Starting Sequential neighborhood change procedure for VND
+[154.16297259400017] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[154.16303475899622] DEBUG: Starting Sequential neighborhood change procedure for VND
+[156.23401989298873] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[156.23407467998913] DEBUG: Starting Sequential neighborhood change procedure for VND
+[156.23413175699534] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[156.23414997098735] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[156.23425905199838] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((3, 6), (9, 11), (15, 21)) at index 1575592.
+[156.2342904289835] DEBUG: Shaked solution: The permutation [15, 5, 20, 0, 9, 4, 23, 14, 24, 11, 2, 10, 13, 16, 17, 3, 22, 19, 1, 21, 18, 7, 12, 8, 6] results in a cost of inf
+[156.2343055990059] DEBUG: Starting B-VND procedure.
+[156.24914528100635] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[156.24918449600227] DEBUG: Starting Sequential neighborhood change procedure for VND
+[156.29602737198002] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[156.29608134698356] DEBUG: Starting Sequential neighborhood change procedure for VND
+[158.21356280698092] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[158.2136199020024] DEBUG: Starting Sequential neighborhood change procedure for VND
+[158.21367906598607] DEBUG: Local searched solution: The permutation [15, 5, 20, 0, 9, 4, 23, 14, 24, 11, 2, 10, 13, 16, 17, 3, 22, 19, 1, 21, 18, 7, 12, 8, 6] results in a cost of inf
+[158.21369886299362] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[158.21385417200509] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((16, 24),) at index 271.
+[158.21388478498557] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 6, 19, 1, 21, 18, 3, 12, 8, 22] results in a cost of 393444799
+[158.21389859399642] DEBUG: Starting B-VND procedure.
+[158.244301069004] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[158.24435580300633] DEBUG: Starting Sequential neighborhood change procedure for VND
+[158.24438654299593] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[158.2598763369897] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[158.25993287100573] DEBUG: Starting Sequential neighborhood change procedure for VND
+[158.30775221198564] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[158.30780958998366] DEBUG: Starting Sequential neighborhood change procedure for VND
+[160.29108748200815] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[160.29114439498517] DEBUG: Starting Sequential neighborhood change procedure for VND
+[160.29119717798312] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[160.29121705598664] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[160.29136728998856] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((7, 13),) at index 180.
+[160.29140163600096] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 24, 10, 2, 11, 13, 16, 14, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[160.29141778298072] DEBUG: Starting B-VND procedure.
+[160.3066998719878] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[160.30673136698897] DEBUG: Starting Sequential neighborhood change procedure for VND
+[160.40210971797933] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[160.40216555798543] DEBUG: Starting Sequential neighborhood change procedure for VND
+[160.40219864499522] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[160.4174801329791] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[160.41753908799728] DEBUG: Starting Sequential neighborhood change procedure for VND
+[160.46755988299265] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[160.46761619098834] DEBUG: Starting Sequential neighborhood change procedure for VND
+[162.6033972199948] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[162.60347772398381] DEBUG: Starting Sequential neighborhood change procedure for VND
+[162.60354641999584] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[162.6035701709916] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[162.60371846999624] DEBUG: Shaked solution with 3-Permute neighborhood and combination ((19, 22, 23), (0, 2, 1)) at index 11435.
+[162.60375836997991] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 8, 12, 6] results in a cost of inf
+[162.60377738898387] DEBUG: Starting B-VND procedure.
+[162.64880354100023] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[162.64891427799012] DEBUG: Starting Sequential neighborhood change procedure for VND
+[162.64896858800785] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[162.6664271930058] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[162.6664879900054] DEBUG: Starting Sequential neighborhood change procedure for VND
+[162.7170931059809] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[162.71714803398936] DEBUG: Starting Sequential neighborhood change procedure for VND
+[164.88616934799938] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[164.88624155099387] DEBUG: Starting Sequential neighborhood change procedure for VND
+[164.88630601900513] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[164.88632850899012] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[164.88645079900743] DEBUG: Shaked solution with 2-Swap neighborhood and combination ((2, 15), (13, 20)) at index 14065.
+[164.88648929598276] DEBUG: Shaked solution: The permutation [15, 5, 7, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 18, 17, 20, 22, 19, 1, 21, 16, 3, 12, 8, 6] results in a cost of inf
+[164.88650916999904] DEBUG: Starting B-VND procedure.
+[164.90517289499985] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[164.905251588003] DEBUG: Starting Sequential neighborhood change procedure for VND
+[164.99275144698913] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[164.99281913999585] DEBUG: Starting Sequential neighborhood change procedure for VND
+[169.70079298398923] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[169.70086121498025] DEBUG: Starting Sequential neighborhood change procedure for VND
+[169.70089674700284] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[169.71818766600336] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[169.7182498970069] DEBUG: Starting Sequential neighborhood change procedure for VND
+[169.7699362669955] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[169.7699989709945] DEBUG: Starting Sequential neighborhood change procedure for VND
+[171.89876133599319] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[171.89882778798346] DEBUG: Starting Sequential neighborhood change procedure for VND
+[171.89888782199705] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[171.89890967399697] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[171.89902989400434] DEBUG: Shaked solution with 4-Permute neighborhood and combination ((6, 9, 12, 24), (1, 0, 2, 3)) at index 208569.
+[171.89906470399] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 10, 14, 24, 0, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[171.89908087899676] DEBUG: Starting B-VND procedure.
+[171.93345468098414] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[171.94433411798673] DEBUG: Starting Sequential neighborhood change procedure for VND
+[171.94441842997912] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[172.0924523989961] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[172.09253709198674] DEBUG: Starting Sequential neighborhood change procedure for VND
+[172.16860871799872] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[172.16869216700434] DEBUG: Starting Sequential neighborhood change procedure for VND
+[174.35619790499914] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[174.35626319100265] DEBUG: Starting Sequential neighborhood change procedure for VND
+[174.3563194370072] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[174.35633946198504] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[174.3564510709839] DEBUG: Shaked solution with 3-Swap neighborhood and combination ((1, 21), (2, 14), (5, 18)) at index 1056653.
+[174.356484066986] DEBUG: Shaked solution: The permutation [15, 3, 17, 23, 9, 1, 0, 14, 24, 10, 2, 11, 13, 16, 20, 7, 22, 19, 4, 21, 18, 5, 12, 8, 6] results in a cost of inf
+[174.35653927299427] DEBUG: Starting B-VND procedure.
+[174.3730746159854] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[174.37313212599838] DEBUG: Starting Sequential neighborhood change procedure for VND
+[174.42378634298802] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[174.42385131499032] DEBUG: Starting Sequential neighborhood change procedure for VND
+[176.63128092198167] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[176.63134831900243] DEBUG: Starting Sequential neighborhood change procedure for VND
+[176.63141354598338] DEBUG: Local searched solution: The permutation [15, 3, 17, 23, 9, 1, 0, 14, 24, 10, 2, 11, 13, 16, 20, 7, 22, 19, 4, 21, 18, 5, 12, 8, 6] results in a cost of inf
+[176.63143504198524] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[176.6315515159804] DEBUG: Shaked solution with 1-Swap neighborhood and combination ((10, 17),) at index 201.
+[176.6315865799843] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 19, 11, 13, 16, 17, 7, 22, 2, 1, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[176.6316025579872] DEBUG: Starting B-VND procedure.
+[176.66472857899498] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[176.66479546300252] DEBUG: Starting Sequential neighborhood change procedure for VND
+[176.66483232498285] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[176.68364258200745] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[176.68371243198635] DEBUG: Starting Sequential neighborhood change procedure for VND
+[176.74439399299445] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[176.74447220700677] DEBUG: Starting Sequential neighborhood change procedure for VND
+[178.9604299979983] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[178.96049560900428] DEBUG: Starting Sequential neighborhood change procedure for VND
+[178.9605543409998] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[178.96057465599733] DEBUG: Starting Sequential neighborhood change procedure for VNS
+[178.96073608100414] DEBUG: Shaked solution with 1-Insertion neighborhood and combination ((8, 10),) at index 201.
+[178.96077297799638] DEBUG: Shaked solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 10, 2, 24, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of inf
+[178.96079009899404] DEBUG: Starting B-VND procedure.
+[178.97722654798417] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[178.97728702498716] DEBUG: Starting Sequential neighborhood change procedure for VND
+[179.08510441399994] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[179.08517771298648] DEBUG: Starting Sequential neighborhood change procedure for VND
+[179.08521592599573] DEBUG: Solution search is better than current solution. Reset VND neighborhood type to first.
+[179.10298391099786] DEBUG: Reached local optimum of 1-Swap neighborhood. Stop local search.
+[179.10305024299305] DEBUG: Starting Sequential neighborhood change procedure for VND
+[179.1547684620018] DEBUG: Reached local optimum of 1-Insertion neighborhood. Stop local search.
+[179.15483182200114] DEBUG: Starting Sequential neighborhood change procedure for VND
+[180.00005778099876] DEBUG: Reached local optimum of 2-Swap neighborhood. Stop local search.
+[180.00012643198716] DEBUG: Starting Sequential neighborhood change procedure for VND
+[180.0001836050069] DEBUG: Local searched solution: The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[180.0002184319892] INFO: VNS finished after 25 iterations.
+[180.00055283599067] INFO: Best found Solution.
+The permutation [15, 5, 20, 23, 9, 4, 0, 14, 24, 10, 2, 11, 13, 16, 17, 7, 22, 19, 1, 21, 18, 3, 12, 8, 6] results in a cost of 378601643
+[180.10112690998358] INFO: Saving solution and logs to file.
