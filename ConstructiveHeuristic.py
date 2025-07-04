@@ -68,28 +68,20 @@ class ConstructiveHeuristic:
         free_locations = np.arange(n, dtype=int)
         free_facilities = np.arange(n, dtype=int)
         permutation = -np.ones(n, dtype=int) 
-       
-        # get the facility with the highest flow and the location with the lowest distance
-        total_flow = np.sum(F, axis=1)
-        total_distance = np.sum(D, axis=1)
-        first_facility = np.argmax(total_flow)
-        first_location = np.argmin(total_distance)
-        permutation[first_facility] = first_location
-
-        used_locations = np.append(used_locations, first_location)
-        used_facilities = np.append(used_facilities, first_facility)
-    
-        # remove first location and facility from free locations and facilities
-        free_locations = free_locations[free_locations != first_location]
-        free_facilities = free_facilities[free_facilities != first_facility]
 
         # place the next facility with the highest flow and the next location with the lowest distance relative to the already used facilities and locations until all locations are used
         # flow/distance between used and unused facilities/locations
         # matrices are symmetric, so we need only sum for rows of used and columns of unused locations/facilities (otherwise we would need the vice versa too)
-        while len(used_locations) < n:  
-            # get a subset of the matrices with the rows of used locations/facilities and columns of free locations/facilities
-            D_subset = D[np.ix_(used_locations, free_locations)]
-            F_subset = F[np.ix_(used_facilities, free_facilities)]
+        for i in range(n-1):
+            if len(free_locations) == 0:
+                # first iteration should consider all flows and distances between facilities and locations (like in ordered greedy) 
+                # -> get the facility with the highest flow and the location with the lowest distance
+                D_subset = D
+                F_subset = F
+            else: 
+                # get a subset of the matrices with the rows of used locations/facilities and columns of free locations/facilities
+                D_subset = D[np.ix_(used_locations, free_locations)]
+                F_subset = F[np.ix_(used_facilities, free_facilities)]
             
             # sum over the rows (add values with same column index) to get values from used location to free locations (and back cause of transpose earlier)
             total_distance = np.sum(D_subset, axis=0)
@@ -102,6 +94,7 @@ class ConstructiveHeuristic:
 
             used_locations = np.append(used_locations, next_location)
             used_facilities = np.append(used_facilities, next_facility)
+            # remove next location and facility from free locations and facilities
             free_locations = free_locations[free_locations != next_location]
             free_facilities = free_facilities[free_facilities != next_facility]
 

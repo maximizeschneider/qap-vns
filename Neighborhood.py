@@ -120,7 +120,7 @@ class K_SwapNeighborhood(Neighborhood):
         """Return list of all (possibly disjoint) k-swap combinations. Could be done faster for disjoint swaps but itertools is in C (hard to beat)."""
 
         # get all index pairs (i, j) with i < j
-        pairs = [(i, j) for i in range(n) for j in range(i + 1, n)]
+        pairs = [(i, j) for i in range(n) for j in range(i + 1, n)] # pairs = list(itertools.permutations(range(n), 2))
         # generate the k-length combinations of those pairs and filter out non disjoint combinations
         combinations = [x for x in itertools.combinations(pairs, k) if K_SwapNeighborhood._is_disjoint(x)]
         return combinations
@@ -172,7 +172,7 @@ class K_InsertionNeighborhood(Neighborhood):
     @staticmethod
     def _get_all_combinations(n: int, k: int) -> list[tuple[tuple[int, int], ...]]:
         # get all ordered pairs (i, j) with i != j
-        pairs = [(i, j) for i in range(n) for j in range(n) if i != j]  
+        pairs = [(i, j) for i in range(n) for j in range(n) if i != j] # pairs = list(itertools.permutations(range(n), 2))
         # allow repetitions and different order of pairs and filter out adjacent or same insertions, cause order is important
         combinations = [x for x in itertools.product(pairs, repeat=k) if K_InsertionNeighborhood._is_valid_combination(x)]
         return combinations
@@ -240,7 +240,7 @@ class K_PermuteNeighborhood(Neighborhood):
         reorderings = [item for item in itertools.permutations(range(k), k) if list(item) != list(range(k))]
 
         # Create all combinations of index selections with reorderings
-        combinations = [(indices, reorder) for indices in combo_indices_permute for reorder in reorderings]
+        combinations = [(indices, reorder) for indices in combo_indices_permute for reorder in reorderings] # combinations = list(itertools.product(combo_indices_permute, reorderings))
 
         return combinations
 
@@ -269,7 +269,8 @@ class K_BlockNeighborhood(Neighborhood):
 
     @staticmethod
     def _get_all_combinations(n: int, k: int) -> list[tuple[int, int]]:
-        return [(i, j) for i in range(n-k+1) for j in range(n-k+1) if j != i and (k == 1 or j != i - k)] # last condition is only if k is not equal to 1 (code from lecture is missing this to be correct for block length of 1)
+        return [(i, j) for i in range(n-k+1) for j in range(n-k+1) if j != i and j != i - k] #(k == 1 or j != i - k)] # last condition is only if k is not equal to 1 (code from lecture is missing this to be correct for block length of 1)
+        # edit: the k==1 is not correct. the condition should apply to all k. (1,5) and (1,6) would be the same move, but result in less then n*(n-1) combinations (same is true for insertion)
     
 
     def _make_move(self, initial_permutation: np.ndarray, combination: tuple[int, int]) -> Solution:
