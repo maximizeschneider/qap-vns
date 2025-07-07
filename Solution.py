@@ -24,10 +24,10 @@ class Solution:
         return "The permutation " + str([int(i) for i in self.permutation]) + " results in a cost of " + str(self.cost)
 
     @staticmethod
-    def calculate_cost(permutation: np.ndarray, input_data: InputData, method: Literal["numpy", "python-loop"] = "numpy") -> float:
+    def calculate_cost(permutation: np.ndarray, input_data: InputData, method: Literal["numpy", "python-loop"] = "numpy", penalty: bool = False) -> float:
         """
         Calculate the cost of a given permutation for the Quadratic Assignment Problem.
-        If the minimum distance is considered, the cost is set to infinity if the minimum distance is not met.
+        If the minimum distance is considered, the cost is set to infinity if the minimum distance is not met or if penalty is True, the cost is increased by the penalty factor and the values of the distance matrix that are below the minimum distance.
         The method can be either "numpy" or "python-loop".
         The numpy method is faster than the python-loop method because it is vectorized.
         If the permutation has unassigned facilities the cost is calculated for assigned facilities only (used in constructive heuristic: increasing_dof_greedy, python-loop is missing this partial calculation)
@@ -35,18 +35,25 @@ class Solution:
         F = input_data.F
         D = input_data.D
         M = input_data.M
+
+        penalty_factor = 1_000_000
         
         if method == "numpy":
             placed = np.where(permutation >= 0)[0]
             if placed.size == 0:
                 return 0
+            cost = 0
             F_subset= F[np.ix_(placed, placed)]
             D_subset = D[np.ix_(permutation[placed], permutation[placed])] # distance per facility
             if input_data.consider_minimum_distance:
                 M_subset = M[np.ix_(placed, placed)]
-                if np.any(D_subset < M_subset):
-                    return np.inf
-            cost = np.sum(F_subset * D_subset)
+                violation = D_subset < M_subset
+                if np.any(violation):
+                    if penalty:
+                        cost += np.sum((M_subset[violation] - D_subset[violation]))*penalty_factor
+                    else:
+                        return np.inf
+            cost += np.sum(F_subset * D_subset)
             return cost
         
         elif method == "python-loop":
