@@ -130,7 +130,7 @@ class VariableNeighborhoodSearch:
                     break
 
                 current = self.vnd_neighborhoods[self.vnd_neighborhood_types[self.current_vnd_neighborhood_type_idx]]
-                solution_search = current.local_search(self.neighborhood_evaluation_strategy, current_solution)
+                solution_search = current.local_search(self.neighborhood_evaluation_strategy, current_solution) # WRONG IMPLEMENTATION: should call discover_and_evaluate_moves() and logging should be slightly different
 
                 # get the neighborhood that got used for shaking 
                 solution_search.shaking_neighborhood = self.neighborhood_types[self.current_neighborhood_type_idx]
